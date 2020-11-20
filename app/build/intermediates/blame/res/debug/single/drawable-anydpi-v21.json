@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_login_bk.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_login_bk.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\md_nav_back.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable-anydpi-v21\\md_nav_back.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    }
+]

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ortak_home2_toolbar"
+        android:background="@color/mr_haki"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <!--  <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+                <ListView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:animationCache="false"
+                    android:scrollingCache="true"
+                    android:smoothScrollbar="true"
+                    android:stackFromBottom="false"
+                    android:background="@drawable/ip_dd_listitem_bg"
+                    android:id="@+id/home_page_duyurular_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </ListView>
+
+            </LinearLayout>
+
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/planlama_64"
+                android:onClick="home2_plan_onclick"
+                android:text="Planlama"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/ip_ana_menu_64"
+                android:onClick="home2_ip_onclick"
+                android:text="İşletme Pazarlama"
+
+                android:textAllCaps="false"
+
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/mr_drawermenugradient"
+                android:onClick="oduh_onclick"
+                android:text="Odun Dışı"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size"
+                android:visibility="invisible" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/ozm_64"
+                android:onClick="home2_2_onclick"
+                android:text="O.Z.M."
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/vejetasyon"
+                android:onClick="fidanlik_onclick"
+                android:text="Fidanlık"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/silvikultur_64"
+                android:onClick="home2_silvikultur_onclick"
+                android:text="Silvikültür"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/guzergah_64"
+                android:onClick="home2_notlar_onclick"
+                android:text="Not-Güzergah"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/admin_64"
+                android:onClick="home2_yonetici_onclick"
+                android:text="Yönetici Ekranı"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/fire"
+                android:onClick="home2_yangin_onclick"
+                android:text="Yangın"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/barcode_64"
+                android:onClick="home2_barcode_onclick"
+                android:text="Barkod"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+            <!--
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/bluetooth_54"
+                android:onClick="home2_bluetooth_onclick"
+                android:text="Bluetooth"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+                -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mr_drawermenugradient"
+                android:drawableTop="@drawable/ip_ana_menu_64"
+                android:onClick="home2_orkoy_onclick"
+                android:text="Orköy"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/big_definition_text_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <Button
+                android:layout_width="250dp"
+
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/mr_drawermenugradient"
+                android:onClick="foto_onclick"
+                android:text="Foto Deneme"
+                android:textAllCaps="false"
+                android:textAppearance="@style/mr_edittext"
+                android:textColor="@color/bembeyaz"
+                android:textSize="@dimen/home_act_label_size" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <!--  <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <Button
+                android:textColor="@color/bembeyaz"
+                android:textAppearance="@style/mr_edittext"
+                android:textAllCaps="false"
+                android:background="@drawable/mr_drawermenugradient"
+                android:onClick="home2_veriesitle_onclick"
+                android:textSize="@dimen/home_act_label_size"
+                android:text="Temel Cihaz Verisi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

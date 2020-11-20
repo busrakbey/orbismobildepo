@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="500dp"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Kapat"
+            android:id="@+id/istif_info_for_foto_kapat_button" />
+
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Kaydet"
+            android:id="@+id/istif_info_for_foto_save_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="@dimen/spinner_height">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="@dimen/edittext_height"
+            android:layout_height="@dimen/spinner_height">
+
+            <TextView
+                android:textSize="@dimen/normal_definition_text_size"
+                android:text="Satış Yeri"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:text=""
+                android:selectAllOnFocus="true"
+                android:textSize="17sp"
+                android:inputType="text"
+                android:layout_height="@dimen/spinner_height"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:id="@+id/istif_info_for_foto_depo_autocomplete"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="@dimen/spinner_height">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="75dp"
+            android:layout_height="@dimen/spinner_height">
+
+            <TextView
+                android:textSize="@dimen/normal_definition_text_size"
+                android:text="İstif No"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+            <EditText
+                android:id="@+id/istif_info_istif_no_edittext"
+                android:background="@color/my_bisque"
+                android:layout_height="@dimen/edittext_height"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="date"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="@dimen/spinner_height">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="75dp"
+            android:layout_height="@dimen/spinner_height">
+
+            <TextView
+                android:textSize="@dimen/normal_definition_text_size"
+                android:text="Yıl"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+            <EditText
+                android:id="@+id/istif_info_yil_edittext"
+                android:background="@color/my_bisque"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:layout_height="@dimen/edittext_height"
+                android:inputType="date"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

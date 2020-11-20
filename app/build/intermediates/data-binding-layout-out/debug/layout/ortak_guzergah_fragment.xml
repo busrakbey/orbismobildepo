@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:fillViewport="true"
+    android:layout_gravity="fill_vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            style="@style/mr_window_navbar_kucuk">
+
+
+            <Button
+                android:id="@+id/yeni_yol_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/my_grass_button"
+                android:drawableLeft="@drawable/road_48"
+                android:paddingLeft="5dp"
+                android:text="  Yeni Yol  "
+                android:textAlignment="gravity"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:visibility="visible" />
+
+
+            <Button
+                android:id="@+id/guzergah_all_delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/my_grass_button"
+                android:drawableLeft="@drawable/remove_32"
+                android:paddingLeft="5dp"
+                android:text="  Hepsini Sil  "
+                android:textAlignment="gravity"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+
+
+            <Button
+                android:id="@+id/guzergah_all_senkron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/guzergah_all_delete_button"
+                android:layout_toRightOf="@+id/guzergah_all_delete_button"
+                android:background="@drawable/my_grass_button"
+                android:drawableLeft="@drawable/refresh"
+                android:paddingLeft="5dp"
+                android:text="  Hepsini Gönder  "
+                android:textAlignment="gravity"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:visibility="visible" />
+
+
+            <LinearLayout  style="@style/topbarbottomviewline"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout11">
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/guzergah_indir_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/guzergah_all_delete_button"
+                android:layout_toRightOf="@+id/guzergah_all_delete_button"
+                android:background="@drawable/my_grass_button"
+                android:drawableLeft="@drawable/download_icon"
+                android:paddingLeft="5dp"
+                android:text="  Güzergah İndir "
+                android:textAlignment="gravity"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="131dp"
+                android:layout_marginStart="131dp"
+                android:layout_marginTop="39dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Tarih"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/guzergah_birim_id_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/linearLayout11"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/myedittextstylebacktranswithgrayborder"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Güzergah Listesi"
+                android:textColor="@color/text"
+                android:textSize="@dimen/normal_definition_text_size" />
+
+            <CheckBox
+                android:id="@+id/senkron_edilemeyen_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/guzergah_indir_button"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="3dp"
+                android:layout_toEndOf="@+id/guzergah_all_delete_button"
+                android:layout_toRightOf="@+id/guzergah_all_delete_button"
+                android:text="Sadece senkron edilmeyenleri göster"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/normal_definition_text_size"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="527dp"
+                android:layout_marginLeft="527dp"
+                android:visibility="invisible"
+                android:text="Button" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:background="@drawable/myedittextstylebacktranswithgrayborder"
+            style="@style/listTable_satircontainerLinearwrapwraphoriz"
+            android:id="@+id/kolon_aciklama_ly"
+            android:layout_height="wrap_content">
+
+
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Sözel Veri"
+                android:textSize="@dimen/dd_list_view_item_text_size"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Harita"
+                android:textSize="@dimen/dd_list_view_item_text_size"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Yol Kodu"
+                android:textSize="@dimen/dd_list_view_item_text_size"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Yol Adı"
+                android:textSize="@dimen/dd_list_view_item_text_size"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:textSize="@dimen/dd_list_view_item_text_size"
+                android:text="İşlemler"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:layout_height="wrap_content" />
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/list_ly"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/ortak_guzergah_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animationCache="false"
+                android:background="@drawable/ip_dd_listitem_bg"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true"
+                android:stackFromBottom="false">
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/yol_genel_ly"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/yol_kodu_ly"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Yol Kodu"
+                        android:textColor="@color/blue"
+                        style="@style/oa_frag_text_style"
+                        />
+
+                    <EditText
+                        android:id="@+id/yol_kodu_edit_text"
+                        style="@style/mr_fe_in_edittext_colorful"
+                        android:layout_weight="1"
+                        android:background="@color/my_bisque"
+                        android:inputType="text"
+                        android:selectAllOnFocus="true" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Yol Adı"
+                        android:textColor="@color/blue"
+                        style="@style/oa_frag_text_style"
+                        />
+                    <EditText
+                        android:id="@+id/yol_adi_edit_text"
+                        android:background="@color/my_bisque"
+                        android:selectAllOnFocus="true"
+                        style="@style/mr_fe_in_edittext_colorful"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/yol_tipi_ly"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Yol Tipi"
+                        android:textColor="@color/blue"
+                        style="@style/oa_frag_text_style"
+                        />
+                    <Spinner
+                        android:id="@+id/yol_kategori_spinner"
+                        android:background="@color/my_bisque"
+                        style="@style/mr_fe_in_spinner"
+                        android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Yol Durumu"
+                        android:textColor="@color/blue"
+                        style="@style/oa_frag_text_style"
+                        />
+                    <Spinner
+                        android:id="@+id/yol_durum_spinner"
+                        android:background="@color/my_bisque"
+                        style="@style/mr_fe_in_spinner"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/yol_button_ly"
+                android:layout_height="@dimen/edittext_height">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="@dimen/edittext_height"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/gps_takip_baslat_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_below="@+id/linearLayout10"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/my_grass_button"
+                        android:drawableLeft="@drawable/gps_32"
+                        android:paddingLeft="5dp"
+                        android:text="  Yol Başlat  "
+                        android:textAlignment="gravity"
+                        android:textColor="@color/kirlibeyaz"
+                        android:textSize="15sp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/gps_takip_sonlandir_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_below="@+id/linearLayout10"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/my_grass_button"
+                        android:drawableLeft="@drawable/stop"
+                        android:paddingLeft="5dp"
+                        android:text="  Yol Sonlandır  "
+                        android:textAlignment="gravity"
+                        android:textColor="@color/kirlibeyaz"
+                        android:textSize="15sp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/gps_takip_durdur_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/my_grass_button"
+                        android:drawableLeft="@drawable/pause_32"
+                        android:paddingLeft="5dp"
+                        android:text="  Gps Duraklat/Devam Et   "
+                        android:textAlignment="gravity"
+                        android:textColor="@color/kirlibeyaz"
+                        android:textSize="15sp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+
+                    <Button
+                        android:visibility="visible"
+                        android:id="@+id/sanat_yapisi_ekle_button"
+                        android:textColor="@color/kirlibeyaz"
+                        android:textSize="15sp"
+                        android:layout_marginTop="12dp"
+                        android:text="  Sanat Yapısı   "
+                        android:background="@drawable/my_grass_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/building48"
+                        android:paddingLeft="5dp"
+                        android:textAlignment="gravity"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/yeni_yol_button"
+                        android:layout_toEndOf="@+id/yeni_yol_button"
+                        android:layout_gravity="center"
+                       />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/yol_info_ly"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Konum Bilgisi"
+                        android:textColor="@color/blue"
+                        style="@style/oa_frag_text_style"
+                        />
+                    <EditText
+                        android:id="@+id/yol_info_edit_text"
+                        android:background="@color/my_bisque"
+                        android:selectAllOnFocus="true"
+                        android:overScrollMode="always"
+                        android:scrollbars="vertical"
+                        style="@style/mr_fe_in_edittext_colorful"
+                        android:inputType="textCapSentences|textMultiLine"
+                        android:scrollHorizontally="false"
+                        android:focusable="false"
+                        android:gravity="top|left"
+                        android:lines="200"
+                        android:textSize="@dimen/normal_definition_text_size"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

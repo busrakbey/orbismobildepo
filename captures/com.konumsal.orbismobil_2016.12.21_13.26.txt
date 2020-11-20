@@ -1,0 +1,108 @@
+TASK com.konumsal.orbismobil id=25
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.Home2Activity 418eb290 pid=6768
+    Local FragmentActivity 4188bc28 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@41024c20
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@41024c20
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{42a451f8 V.E..... ... 0,0-768,988}
+        android.widget.LinearLayout{42a3ad40 V.E..... ... 0,0-768,988}
+          android.view.ViewStub{4188c228 G.E..... ... 0,0-0,0 #10202e9}
+          android.widget.FrameLayout{41d13980 V.E..... ... 0,0-768,988}
+            android.support.v7.widget.FitWindowsLinearLayout{41fa2fd8 V.E..... ... 0,0-768,988 #7f0d0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{41d0e7f0 G.E..... ... 0,0-0,0 #7f0d0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{41fa5f68 V.ED.... ... 0,0-768,988 #1020002 android:id/content}
+                android.widget.LinearLayout{4188c430 V.E..... ... 0,0-768,988}
+                  android.support.v7.widget.Toolbar{42a486b0 V.E..... ... 0,0-768,48 #7f0d01df app:id/ortak_home2_toolbar}
+                    android.widget.ImageButton{40ff2b80 VFED..C. ... 6,0-60,48}
+                    android.widget.TextView{42a47ee8 V.ED.... ... 99,13-141,34}
+                    android.widget.ImageView{40ffb7f8 V.ED.... ... 60,6-96,42}
+                    android.support.v7.widget.ActionMenuView{41d08aa0 V.E..... ... 731,0-762,48}
+                      android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton{41047f00 VFED..C. ... 0,6-31,42}
+                  android.widget.LinearLayout{429551f0 V.E..... ... 0,48-768,988}
+                    android.widget.LinearLayout{42956228 V.E..... ... 0,0-768,347}
+                      android.widget.ListView{42a0a288 V.ED.VC. ... 8,0-760,347 #7f0d01e0 app:id/home_page_duyurular_listview}
+                    android.widget.LinearLayout{4296ef18 V.E..... ... 0,347-768,544}
+                      android.support.v7.widget.AppCompatButton{4222c1d0 VFED..C. ... 0,0-384,197}
+                      android.support.v7.widget.AppCompatButton{429fb700 VFED..C. ... 384,0-768,197}
+                    android.widget.LinearLayout{4293b770 V.E..... ... 0,544-768,742}
+                      android.support.v7.widget.AppCompatButton{42a462e0 VFED..C. ... 0,0-384,198}
+                      android.support.v7.widget.AppCompatButton{42a47150 VFED..C. ... 384,0-768,198}
+                    android.widget.LinearLayout{417f4a40 V.E..... ... 0,742-768,940}
+                      android.support.v7.widget.AppCompatButton{42a47530 VFED..C. ... 0,0-289,198}
+                      android.support.v7.widget.AppCompatImageView{42a5b620 V.ED.... ... 289,0-768,113 #7f0d01e1 app:id/imageView}
+
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.Home2Activity 417d33e0 pid=6768
+    Local FragmentActivity 4188b918 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4293bff0
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@4293bff0
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{41d0de78 I.E..... ... 0,0-768,988}
+        android.widget.LinearLayout{41d0fb28 V.E..... ... 0,0-768,988}
+          android.view.ViewStub{41d17df0 G.E..... ... 0,0-0,0 #10202e9}
+          android.widget.FrameLayout{427e1fd0 V.E..... ... 0,0-768,988}
+            android.support.v7.widget.FitWindowsLinearLayout{41477de8 V.E..... ... 0,0-768,988 #7f0d0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{4104ce10 G.E..... ... 0,0-0,0 #7f0d0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{42a61fa8 V.ED.... ... 0,0-768,988 #1020002 android:id/content}
+                android.widget.LinearLayout{4293bd38 V.E..... ... 0,0-768,988}
+                  android.support.v7.widget.Toolbar{42a5d108 V.E..... ... 0,0-768,48 #7f0d01df app:id/ortak_home2_toolbar}
+                    android.widget.ImageButton{41881d40 VFED..C. ... 6,0-60,48}
+                    android.widget.TextView{42a006a0 V.ED.... ... 99,13-141,34}
+                    android.widget.ImageView{4296f8e8 V.ED.... ... 60,6-96,42}
+                    android.support.v7.widget.ActionMenuView{429f95d8 V.E..... ... 731,0-762,48}
+                      android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton{40ffbce0 VFED..C. ... 0,6-31,42}
+                  android.widget.LinearLayout{4293cb40 V.E..... ... 0,48-768,988}
+                    android.widget.LinearLayout{42961fc0 V.E..... ... 0,0-768,347}
+                      android.widget.ListView{418875b0 V.ED.VC. ... 8,0-760,347 #7f0d01e0 app:id/home_page_duyurular_listview}
+                    android.widget.LinearLayout{4104e810 V.E..... ... 0,347-768,544}
+                      android.support.v7.widget.AppCompatButton{42a00e80 VFED..C. ... 0,0-384,197}
+                      android.support.v7.widget.AppCompatButton{42a00288 VFED..C. ... 384,0-768,197}
+                    android.widget.LinearLayout{41534b80 V.E..... ... 0,544-768,742}
+                      android.support.v7.widget.AppCompatButton{4104a5d8 VFED..C. ... 0,0-384,198}
+                      android.support.v7.widget.AppCompatButton{42a036b8 VFED..C. ... 384,0-768,198}
+                    android.widget.LinearLayout{41d09778 V.E..... ... 0,742-768,940}
+                      android.support.v7.widget.AppCompatButton{41d17728 VFED..C. ... 0,0-289,198}
+                      android.support.v7.widget.AppCompatImageView{429fbda8 V.ED.... ... 289,0-768,113 #7f0d01e1 app:id/imageView}
+
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.Home2Activity 41618720 pid=6768
+    Local FragmentActivity 42a15130 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@41889278
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@41889278
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{42a6dd18 I.E..... ... 0,0-768,988}
+        android.widget.LinearLayout{42a63b18 V.E..... ... 0,0-768,988}
+          android.view.ViewStub{40ffc2e8 G.E..... ... 0,0-0,0 #10202e9}
+          android.widget.FrameLayout{41021a38 V.E..... ... 0,0-768,988}
+            android.support.v7.widget.FitWindowsLinearLayout{42a5af88 V.E..... ... 0,0-768,988 #7f0d0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{40ff6848 G.E..... ... 0,0-0,0 #7f0d0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{42a609f0 V.ED.... ... 0,0-768,988 #1020002 android:id/content}
+                android.widget.LinearLayout{42a63dd0 V.E..... ... 0,0-768,988}
+                  android.support.v7.widget.Toolbar{429576d0 V.E..... ... 0,0-768,48 #7f0d01df app:id/ortak_home2_toolbar}
+                    android.widget.ImageButton{417f4898 VFED..C. ... 6,0-60,48}
+                    android.widget.TextView{429fa710 V.ED.... ... 99,13-141,34}
+                    android.widget.ImageView{4188fed0 V.ED.... ... 60,6-96,42}
+                    android.support.v7.widget.ActionMenuView{42955bb0 V.E..... ... 731,0-762,48}
+                      android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton{40ff2798 VFED..C. ... 0,6-31,42}
+                  android.widget.LinearLayout{42a3c4d0 V.E..... ... 0,48-768,988}
+                    android.widget.LinearLayout{42a5acb8 V.E..... ... 0,0-768,347}
+                      android.widget.ListView{42a0ac48 V.ED.VC. ... 8,0-760,347 #7f0d01e0 app:id/home_page_duyurular_listview}
+                    android.widget.LinearLayout{42a5f120 V.E..... ... 0,347-768,544}
+                      android.support.v7.widget.AppCompatButton{42962c70 VFED..C. ... 0,0-384,197}
+                      android.support.v7.widget.AppCompatButton{42a01690 VFED..C. ... 384,0-768,197}
+                    android.widget.LinearLayout{41052548 V.E..... ... 0,544-768,742}
+                      android.support.v7.widget.AppCompatButton{410540b8 VFED..C. ... 0,0-384,198}
+                      android.support.v7.widget.AppCompatButton{429ffe90 VFED..C. ... 384,0-768,198}
+                    android.widget.LinearLayout{42961d08 V.E..... ... 0,742-768,940}
+                      android.support.v7.widget.AppCompatButton{4104d1b8 VFED..C. ... 0,0-289,198}
+                      android.support.v7.widget.AppCompatImageView{4188f230 V.ED.... ... 289,0-768,113 #7f0d01e1 app:id/imageView}

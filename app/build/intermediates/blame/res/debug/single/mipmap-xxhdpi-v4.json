@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_clock.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_clock.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_key.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_key.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_cross_white.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cross_white.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_fullworldmap.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fullworldmap.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_foldergray.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_foldergray.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mr_calendar.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\mr_calendar.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tickwhite.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tickwhite.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_plusboldgray.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_plusboldgray.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_mapponint.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_mapponint.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_actionokey.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_actionokey.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_ogmlogo.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_ogmlogo.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_edit.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_edit.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_agaccam.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_agaccam.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_search.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_camera.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_camera.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_person.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_person.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_listicon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_listicon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_actionplus.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_actionplus.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_pushonwhite.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_pushonwhite.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_mapzoom.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_mapzoom.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_setting_white.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_setting_white.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mr_calendarclock.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\mr_calendarclock.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_actionhomebar.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_actionhomebar.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\actionlogoiconleaf.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\actionlogoiconleaf.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_actionlogin.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_actionlogin.png"
+    }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:descendantFocusability="blocksDescendants"-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/my_new_list_item_style2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="19sp"
+        android:id="@+id/surutme_lokasyon_adi_item_text"
+        android:text=""
+        style="@style/listTable_SatirTextView"
+        />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+
+
+
+
+
+
+
+</LinearLayout>

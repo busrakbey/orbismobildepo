@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="500dp"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:text="Kapat"
+        android:id="@+id/surutme_lokasyon_kapat" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="@dimen/spinner_height">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="75dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="@dimen/spinner_height"
+            android:weightSum="1">
+
+            <TextView
+                android:text="İşin Başlama Tarihi"
+                android:textSize="@dimen/normal_definition_text_size"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+            <EditText
+                android:id="@+id/surutme_lokasyon_isin_baslangic_tarihi_edit_text"
+                android:background="@color/my_bisque"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="date"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="75dp"
+            android:layout_height="@dimen/spinner_height">
+
+            <TextView
+                android:text="İşin Bitiş Tarihi"
+                android:textSize="@dimen/normal_definition_text_size"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+            <EditText
+                android:id="@+id/surutme_lokasyon_isin_bitis_tarihi_edit_text"
+                android:background="@color/my_bisque"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="date"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        style="@style/listTable_satircontainerLinearwrapwraphoriz"
+        android:layout_marginTop="0dp">
+
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="Lokasyon Adı"
+            android:textColor="@color/text"
+            style="@style/listTable_SatirTextView_buyuk"
+            />
+        <View
+            style="@style/listTable_satirAyracView"></View>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:animationCache="false"
+            android:scrollingCache="true"
+            android:layout_marginTop="5dp"
+            android:smoothScrollbar="true"
+            android:stackFromBottom="false"
+            android:background="@drawable/ip_dd_listitem_bg"
+            android:id="@+id/surutme_lokasyon_popup_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

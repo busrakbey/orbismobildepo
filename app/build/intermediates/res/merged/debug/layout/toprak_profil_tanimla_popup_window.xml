@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Kapat"
+            android:id="@+id/tp_kapat" />
+
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Kaydet"
+            android:id="@+id/tp_kaydet" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="100dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="100dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Etüt Tarihi"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+            <EditText
+                android:id="@+id/tp_etut_tarih_edit_text"
+                android:background="@color/my_bisque"
+                android:selectAllOnFocus="true"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="date"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="125dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Proje Nevi"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+            <Spinner
+                android:id="@+id/tp_proje_nevi_spinner"
+                android:background="@color/my_bisque"
+                style="@style/mr_fe_in_spinner"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="125dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Laboratuar Adı"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+            <EditText
+                android:id="@+id/tp_laboratuar_adi_edit_text"
+                android:background="@color/my_bisque"
+                android:selectAllOnFocus="true"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="text"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="125dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Proje Adı"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+            <EditText
+                android:id="@+id/tp_proje_adi_edit_text"
+                android:background="@color/my_bisque"
+                android:selectAllOnFocus="true"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="text"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

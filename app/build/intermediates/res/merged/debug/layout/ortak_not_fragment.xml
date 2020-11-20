@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:fillViewport="true"
+    android:layout_gravity="fill_vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            style="@style/mr_window_navbar_kucuk">
+
+
+            <Button
+                android:visibility="visible"
+                android:id="@+id/yeni_not_button"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:text="  Yeni Not  "
+                android:background="@drawable/my_grass_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/add_icon"
+                android:paddingLeft="5dp"
+                android:textAlignment="gravity"
+                />
+
+
+            <Button
+                android:visibility="visible"
+                android:id="@+id/not_all_delete_button"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:text="  Hepsini Sil  "
+                android:background="@drawable/my_grass_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/remove_32"
+                android:paddingLeft="5dp"
+                android:textAlignment="gravity"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/not_indir_button"
+                android:layout_toEndOf="@+id/not_indir_button"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp" />
+
+
+
+
+            <Button
+                android:visibility="visible"
+                android:id="@+id/not_indir_button"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:text="  Not İndir  "
+                android:background="@drawable/my_grass_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/download_icon"
+                android:paddingLeft="5dp"
+                android:textAlignment="gravity"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/yeni_not_button"
+                android:layout_toEndOf="@+id/yeni_not_button"
+                android:layout_marginLeft="27dp"
+                android:layout_marginStart="27dp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:background="@drawable/myedittextstylebacktranswithgrayborder"
+            android:textColor="@color/text"
+            android:textSize="30sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:text="Not Listesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:background="@drawable/myedittextstylebacktranswithgrayborder"
+            style="@style/listTable_satircontainerLinearwrapwraphoriz"
+            android:layout_height="wrap_content">
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Kayıt No"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Tarih"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Açıklama"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:text="Konu"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:textSize="20dp"
+                android:text="İş Kalemi"
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:layout_height="wrap_content" />
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+
+            <TextView
+                android:textSize="20dp"
+                android:text=""
+                android:gravity="left"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:layout_height="wrap_content" />
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+
+        </LinearLayout>
+        <ListView
+            android:animationCache="false"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"
+            android:stackFromBottom="false"
+            android:background="@drawable/ip_dd_listitem_bg"
+            android:id="@+id/ortak_not_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/my_new_list_item_normal2"
+    android:touchscreenBlocksFocus="true"
+    android:layout_height="wrap_content">
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/vej_bitki_turu_treeitem_txt"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/vej_ortme_yuzdesi_treeitem_txt"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/vej_yasam_gucu_treeitem_txt"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/vej_gruplama_treeitem_txt"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/vej_otsu_odunsu_treeitem_txt"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/vej_etut_tarihi_treeitem_txt"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+</LinearLayout>

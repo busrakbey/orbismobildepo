@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Top Bar Start-->
+    <RelativeLayout
+        android:id="@+id/dialog_config_Relativ_Container"
+        style="@style/topbarstyle">
+        <ImageButton
+            style="@style/topbariconstyle"
+            android:id="@+id/dialog_config_ImgHomeButton" />
+
+        <ImageButton
+            android:id="@+id/dialog_config_rightImgBtnWorld"
+            style="@style/topbaractioniconstyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:text="Sistem iletişim adresi"
+            android:id="@+id/configSettings_Act_labelformName1"
+            style="@style/topbarlabeltextstyle"
+            android:layout_alignBottom="@+id/dialog_config_ImgHomeButton"
+            android:layout_toRightOf="@+id/dialog_config_ImgHomeButton"
+            android:layout_toEndOf="@+id/dialog_config_ImgHomeButton" />
+        <LinearLayout  style="@style/topbarbottomviewline">
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <!-- Top Bar End-->
+    <!-- Contains one column Form Start-->
+    <LinearLayout style="@style/myformContainerFor1Column">
+
+        <!-- Line 1  Start-->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Server Url:"
+                style="@style/formcellTextviewStyle"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:hint=""
+                android:text="http://"
+                android:id="@+id/dialog_config_SERVICEURL"
+                style="@style/formAutoCompleteStyle"/>
+        </LinearLayout>
+        <!-- Line 2  Start-->
+
+
+        <!-- Line 3  Start-->
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textColor="@color/mr_haki"
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:id="@+id/dialog_config_kaydetButton"
+                android:text="Kaydet"
+                style="@style/mf_ActionBar_button_WhiteBorder_BackTransStyle" />
+            <View
+
+                android:layout_width="30dp"
+                android:layout_height="10dp"></View>
+
+            <Button
+                android:textColor="@color/mr_haki"
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:id="@+id/dialog_config_ExitButton"
+                android:text="Vazgeç"
+                style="@style/mf_ActionBar_button_GreenBorder_BackTransStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Contains one column Form End-->
+</LinearLayout>

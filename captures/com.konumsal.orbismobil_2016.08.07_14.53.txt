@@ -1,0 +1,34 @@
+TASK com.konumsal.orbismobil id=5
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.Home2Activity 41821d28 pid=3239
+    Local FragmentActivity 41df7e40 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@41df6800
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@41df6800
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{410b14c0 V.E..... ... 0,0-768,988}
+        android.widget.LinearLayout{410c14d0 V.E..... ... 0,0-768,988}
+          android.view.ViewStub{41069680 G.E..... ... 0,0-0,0 #10202e9}
+          android.widget.FrameLayout{41dce0b8 V.E..... ... 0,0-768,988}
+            android.support.v7.widget.FitWindowsLinearLayout{410c9110 V.E..... ... 0,0-768,988 #7f0e0097 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{40fe8c68 G.E..... ... 0,0-0,0 #7f0e0098 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{41dd4338 V.ED.... ... 0,0-768,988 #1020002 android:id/content}
+                android.widget.LinearLayout{41de1b10 V.E..... ... 0,0-768,988}
+                  android.support.v7.widget.Toolbar{41098518 V.E..... ... 0,0-768,48 #7f0e01b4 app:id/ortak_home2_toolbar}
+                    android.widget.ImageButton{41dd1e50 VFED..C. ... 6,0-60,48}
+                    android.widget.TextView{40ff8570 V.ED.... ... 99,13-141,34}
+                    android.widget.ImageView{410c6b58 V.ED.... ... 60,6-96,42}
+                    android.support.v7.widget.ActionMenuView{410a0dd0 V.E..... ... 762,0-762,48}
+                  android.widget.LinearLayout{41c0ffc0 V.E..... ... 0,48-768,988}
+                    android.widget.LinearLayout{410c8df0 V.E..... ... 0,0-768,235}
+                      android.support.v7.widget.AppCompatButton{40fe02d8 VFED..C. ... 0,0-768,235}
+                    android.widget.LinearLayout{410c54f0 V.E..... ... 0,235-768,470}
+                      android.support.v7.widget.AppCompatButton{41de62d8 VFED..C. ... 0,0-768,235}
+                    android.widget.LinearLayout{41dd4d38 V.E..... ... 0,470-768,705}
+                      android.support.v7.widget.AppCompatButton{40feaf08 VFED..C. ... 0,0-768,235}
+                    android.widget.LinearLayout{410bd098 V.E..... ... 0,705-768,940}
+                      android.support.v7.widget.AppCompatButton{410c7e70 VFED..C. ... 0,0-768,235}
+
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.Home2Activity 415bccb0 pid=(not running)

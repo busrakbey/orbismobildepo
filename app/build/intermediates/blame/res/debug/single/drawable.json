@@ -1,0 +1,1298 @@
+[
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bolme_48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\bolme_48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\point.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\planlama_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\planlama_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nokta_yesil.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\nokta_yesil.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_polygon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_action_polygon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pentagon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\pentagon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\orkoy_logo.jpg",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\orkoy_logo.jpg"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_drawable.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_drawable.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pencil.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\pencil.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gps_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\gps_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_red_button.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_red_button.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yonetici_ana_menu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\yonetici_ana_menu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_shape_bk.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\login_shape_bk.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\orkoy_yeni_buton.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\orkoy_yeni_buton.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\direction.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\direction.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loginbuttonshape.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\loginbuttonshape.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_upcoming_stop.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_upcoming_stop.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hand.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\hand.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location4.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\location4.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ip_ana_menu_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ip_ana_menu_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\saksi.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\saksi.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_polyline.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_action_polyline.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_new_list_item_pressed.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_new_list_item_pressed.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location2.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\location2.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bluetooth32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\bluetooth32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\form.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\form.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ilac.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ilac.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loginpage_gradient.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\loginpage_gradient.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leafbcsplash.jpg",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\leafbcsplash.jpg"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\feromon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\feromon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\amenejman_ana_menu1.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\amenejman_ana_menu1.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listtable_titlecontainerstyle.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\listtable_titlecontainerstyle.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\suc_tutanak_logo.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\suc_tutanak_logo.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_disabled_focused.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_disabled_focused.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mikrop.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mikrop.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pie_chart.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\pie_chart.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\haber_formu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\haber_formu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_down.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\arrow_down.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\add_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\calendar_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gun_96.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\gun_96.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\start.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\formcellbacktransandlightgrayborder.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\formcellbacktransandlightgrayborder.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_edittext_selected.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_edittext_selected.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\axe_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\axe_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\duyuru.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\duyuru.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\curve.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\curve.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bar_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_bar_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_custd_button_selector.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_custd_button_selector.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_buyuk.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\right_buyuk.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ozm_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ozm_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_transparent_button.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_transparent_button.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plaka_mavi.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\plaka_mavi.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plaka_06.jpg",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\plaka_06.jpg"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\download_128.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\download_128.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_clear.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_action_clear.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg1log.jpg",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\bg1log.jpg"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checked.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\checked.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_icon64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\check_icon64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_edittext_gradient.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_edittext_gradient.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_pressed.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_selector_pressed.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_float_button.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\cancel_float_button.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_location_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_location_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compass.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\compass.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bilgi_sistem_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\bilgi_sistem_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\excel_icon_24.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\excel_icon_24.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_selector.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layer_2.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\layer_2.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_gray_button.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_gray_button.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_undo.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_action_undo.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\remove_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\remove_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unchecked.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\unchecked.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flag.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\flag.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\curve_2.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\curve_2.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_drawermenugradient.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_drawermenugradient.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wood_odd.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\wood_odd.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plaka.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\plaka.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload_48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\upload_48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button_bk.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\login_button_bk.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\calendar_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bar_default.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_bar_default.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\chat.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buyutec_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\buyutec_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_drawermenugradient_pressed.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_drawermenugradient_pressed.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\destek_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\destek_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checked2.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\checked2.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_click_selector_in_listview.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_click_selector_in_listview.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ozm_ana_menu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ozm_ana_menu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\admin_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\admin_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\strateji_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\strateji_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myedittextstylebacktranswithgrayborder.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\myedittextstylebacktranswithgrayborder.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\refresh.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\refresh.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vejetasyon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\vejetasyon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_normal.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_item_normal.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera20.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\camera20.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gps_48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\gps_48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_green_button.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_green_button.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_location.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_location.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\road_48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\road_48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pdf_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\pdf_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\building48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\building48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\expandable_listview_group_indicator.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\expandable_listview_group_indicator.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\folder.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera128.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\camera128.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_item_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\camera.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_cursor_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\arrow_cursor_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\upload_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\photogallery.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\photogallery.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_default.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_default.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focused.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_focused.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\excel_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\excel_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ozm_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ozm_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\right_48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_gradient_glass_button.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_gradient_glass_button.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foto_gallery_grid_color_selector.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\foto_gallery_grid_color_selector.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\expand_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\expand_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy_24.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\copy_24.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_disabled.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_disabled.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\labo2.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\labo2.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\expand_48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\expand_48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stop.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\stop.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.1\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nakliye_logo.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\nakliye_logo.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fire.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\fire.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\right_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_besgen.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\location_besgen.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\briefcase.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\briefcase.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hukuk_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\hukuk_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location3.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\location3.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\otlak.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\otlak.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_mesbox_bodycontent.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_dialog_mesbox_bodycontent.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittextstyle.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\edittextstyle.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\excel_icon_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\excel_icon_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_drawermenugradient_selected.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_drawermenugradient_selected.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\expand_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\expand_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_all.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\check_all.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_formpng.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_formpng.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\agac_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\agac_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\grass_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\grass_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\formborderstyle.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\formborderstyle.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\isletme_anamenu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\isletme_anamenu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yetismeortami.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\yetismeortami.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_pressed.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_item_pressed.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\silvikultur_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\silvikultur_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_edittext_normal.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_edittext_normal.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\expand_buyuk.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\expand_buyuk.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_gradient_message_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_gradient_message_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_new_list_item_normal.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_new_list_item_normal.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_item_selected.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_custom.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\edittext_custom.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tasima.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\tasima.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_new_list_item_style2.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_new_list_item_style2.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_pressed.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_pressed.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layer.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\layer.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bluetooth_ana_menu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\bluetooth_ana_menu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\circle.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_gradient.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_gradient.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_new_list_item_selected.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_new_list_item_selected.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\amenajman_64_ana_menu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\amenajman_64_ana_menu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\treetemplate.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\treetemplate.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_icon32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\check_icon32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\upload.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\import_icon_24.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\import_icon_24.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\koruma_logo.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\koruma_logo.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\orbis_stamp.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\orbis_stamp.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_edittext_pressed.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_edittext_pressed.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_right.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\download_icon_24.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\download_icon_24.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\karantina_512.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\karantina_512.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wood.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\wood.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\barcode_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\barcode_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_float_kucuk.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\cancel_float_kucuk.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\skidding.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\skidding.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_grass_button.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_grass_button.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\labo_1.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\labo_1.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unchecked2.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\unchecked2.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_upcoming_play.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_upcoming_play.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_icon48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\check_icon48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_fidanlik_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\icon_fidanlik_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_normal_orkoy.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_item_normal_orkoy.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\refresh_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\refresh_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_gradient.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_gradient.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nokta_mavi.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\nokta_mavi.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_input_element_frame.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_input_element_frame.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_buttons.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\login_buttons.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_selected.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_item_selected.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_redo.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_action_redo.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\right_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tree.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\tree.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plaka_58.jpg",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\plaka_58.jpg"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\camera32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_list_item_style_red.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_list_item_style_red.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_gradient_orkoy.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\list_gradient_orkoy.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_checkbox2.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\custom_checkbox2.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_orange_button.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_orange_button.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layer_3.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\layer_3.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\navigation.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linear_layout_border.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\linear_layout_border.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_point.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_action_point.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guzergah_ana_menu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\guzergah_ana_menu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\direction32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\direction32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\download_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\download_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_windowform_cell.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_windowform_cell.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_left.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_arrow_left.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_button.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\location_button.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_new_list_item_normal2.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_new_list_item_normal2.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_icon24.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\check_icon24.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\camera48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\round_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ogmlogo2.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ogmlogo2.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ip_dd_listitem_bg.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ip_dd_listitem_bg.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\form_spinner_bg.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\form_spinner_bg.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guzergah_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\guzergah_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pause_32.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\pause_32.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linear_layout_shadow.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\linear_layout_shadow.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\surutme.jpg",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\surutme.jpg"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\egri_48.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\egri_48.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_list_item_red_normal.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_list_item_red_normal.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_background.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\copy.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\barcode_ana_menu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\barcode_ana_menu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_transparent.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_transparent.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\amenejman_ana_menu2.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\amenejman_ana_menu2.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dis_iliskiler_icon.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\dis_iliskiler_icon.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bluetooth_54.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\bluetooth_54.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_checkbox.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\custom_checkbox.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_new_list_item_style.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\my_new_list_item_style.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable\\md_btn_selected.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yetisme_ortami_ana_menu.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\yetisme_ortami_ana_menu.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_right.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\ic_arrow_right.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bocek_64.png",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\bocek_64.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_drawermenugradient_normal.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\drawable\\mr_drawermenugradient_normal.xml"
+    }
+]

@@ -1,0 +1,2784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/yonetici_toolbar_"
+        android:background="@color/mr_haki"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+    <LinearLayout
+        style="@style/mr_window_navbar_kucuk"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edittext_height">
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Böl.Müd.:  "
+            android:textSize="@dimen/normal_definition_text_size"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark"
+            />
+            -->
+
+        <Spinner
+            android:id="@+id/spinner_bolge"
+            android:background="@color/ocean"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            style="@style/mr_fe_in_spinner"
+            />
+
+        <View
+            style="@style/listTable_satirAyracView"></View>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/mr_window_navbar_kucuk"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edittext_height"
+        >
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İl:  "
+            android:textSize="@dimen/normal_definition_text_size"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark"
+            />
+            -->
+        <Spinner
+            android:id="@+id/spinner_il"
+            android:background="@color/ocean"
+            android:layout_width="wrap_content"
+            style="@style/mr_fe_in_spinner"
+            android:layout_height="@dimen/edittext_height"
+            />
+
+        <View
+            style="@style/listTable_satirAyracView"></View>
+
+      <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yıl:  "
+            android:textSize="@dimen/normal_definition_text_size"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark"
+            />
+            -->
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:id="@+id/spinner_yil"
+            android:background="@color/ocean"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/edittext_height"
+            style="@style/mr_fe_in_spinner"
+           />
+
+    </LinearLayout>
+
+
+    <Button
+        android:drawableLeft="@drawable/refresh_32"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/my_gradient_glass_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yonetici_ekrani_refresh_button"
+        android:text="SORGULA" />
+
+
+    <Button
+        android:id="@+id/yonetici_ekrani_grafik_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/my_gradient_glass_button"
+        android:drawableLeft="@drawable/refresh_32"
+        android:text="Grafik" />
+
+    <ScrollView
+        android:layout_marginTop="5dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gp_oa_frg1_scroolview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <GridLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:columnCount="@integer/yonetici_ekrani_column_count"
+            android:id="@+id/yonetici_gridview"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:id="@+id/ll_ds_butce"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DS Bütçesi"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bütçe                        :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="172.641.733"
+                        android:id="@+id/ds_butce_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gelir Gerçekleşme :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="180.167.514"
+                        android:id="@+id/ds_butce_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gider Gerçekleşme:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="87.641.754"
+                        android:id="@+id/ds_butce_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/ds_butce_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:id="@+id/ll_ob_butce"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Özel Bütçe"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bütçe                        :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="172.641.733"
+                        android:id="@+id/ob_butce_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gerçekleşme           :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="180.167.514"
+                        android:id="@+id/ob_butce_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gerçekleşme Oranı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="87.641.754"
+                        android:id="@+id/ob_butce_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/ob_butce_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:id="@+id/ll_muh"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Muhasebe"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nakit Durumu       :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="172.641.733"
+                        android:id="@+id/muh_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="İhale Tutarı           :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="180.167.514"
+                        android:id="@+id/muh_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="İhale Gerçekleşen:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="87.641.754"
+                        android:id="@+id/muh_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/muh_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:padding="5dp"
+                android:id="@+id/ll_uretim"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Üretim"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Dik.Damga Mik.            :"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/small_textsize" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17.543.653"
+                        android:id="@+id/uretim_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Endüstr. Miktar(m3)     :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16.764.873"
+                        android:id="@+id/uretim_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yakacak Miktar (ster)  :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.543.897"
+                        android:id="@+id/uretim_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Çalışan Kişi                     :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21.954.378"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:id="@+id/uretim_4"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ödenen İstihkak Tutarı :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/uretim_5"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:id="@+id/ll_sat_mik"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Satış Miktar"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dik.Satış Mik.               :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17.543.653"
+                        android:id="@+id/sat_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Endüstr.Mik.(m3)        :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16.764.873"
+                        android:id="@+id/sat_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yakacak Miktar (ster):"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.543.897"
+                        android:id="@+id/sat_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/sat_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/sat_5"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:padding="5dp"
+                android:id="@+id/ll_sat_tut"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Satış Tutar"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dik. Satış Tutar        :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                         />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17.543.653"
+                        android:id="@+id/sat_tut_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Endüstr.Satış Tutar :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16.764.873"
+                        android:id="@+id/sat_tut_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yakacak Satış Tutar:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.543.897"
+                        android:id="@+id/sat_tut_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/sat_tut_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/sat_tut_5"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:id="@+id/ll_per"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personel"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Memur   :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18.745"
+                        android:id="@+id/per_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="İşçi         :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        android:id="@+id/textView2343" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21.643"
+                        android:id="@+id/per_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Toplam  :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        android:id="@+id/textView2454" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40.388"
+                        android:id="@+id/per_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:padding="5dp"
+                android:id="@+id/ll_oduh"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Odun Dışı"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mesire Yeri Sayısı       :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.311"
+                        android:id="@+id/oduh_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bal Ormanı Sayısı        :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="270"
+                        android:id="@+id/oduh_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ürün Yayılış Alanı(ha.):"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="270"
+                        android:id="@+id/oduh_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Toplam Gelir                  :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="435.738"
+                        android:id="@+id/oduh_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Toplam Satış Mik.(kg):"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="42"
+                        android:id="@+id/oduh_5"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:id="@+id/ll_yangin"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yangın"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yangın Sayısı                     :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40"
+                        android:id="@+id/oym_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yangın Alanı                      :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="247"
+                        android:id="@+id/oym_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Önceki Yıl Yangın Sayısı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="145"
+                        android:id="@+id/oym_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Önceki Yıl Yangın Alanı :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/oym_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ekip İşçi Say.                    :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/oym_5"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kule Sayısı                        :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/oym_6"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        <!--
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="İzin"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/red"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="İzin Sahası:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2.514"
+                        android:id="@+id/izin_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Top.İzin Alanı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17.984"
+                        android:id="@+id/izin_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="İzin Geliri:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="946.897.492"
+                        android:id="@+id/izin_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="İzin4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/izin_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        -->
+
+
+            <!--
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orköy"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Köy Sayısı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.256"
+                        android:id="@+id/orkoy_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Köylü Sayısı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7.213.614"
+                        android:id="@+id/orkoy_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kredi Miktarı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9.643.678"
+                        android:id="@+id/orkoy_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hibe Miktarı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7.832.416"
+                        android:id="@+id/orkoy_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Proje Sayısı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.945"
+                        android:id="@+id/orkoy_5"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            -->
+
+
+
+
+
+
+
+            <!--     <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Nakit Durumu:"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@color/blue"
+                          />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="172.641.733"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@android:color/black"
+                          android:layout_alignParentTop="true"
+                          />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Nakit Durumu:"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@color/blue"
+                          />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="172.641.733"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@android:color/black"
+                          android:layout_alignParentTop="true"
+                          />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Nakit Durumu:"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@color/blue"
+                          />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="172.641.733"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@android:color/black"
+                          android:layout_alignParentTop="true"
+
+                         />
+
+                  </LinearLayout>
+
+                   <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Nakit Durumu:"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@color/blue"
+                          />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="172.641.733"
+                             android:textSize="@dimen/small_textsize"
+                          android:paddingLeft="5dp"
+                          android:textColor="@android:color/black"
+                          android:layout_alignParentTop="true"
+
+                         />
+
+                  </LinearLayout>
+
+                  -->
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:id="@+id/ll_tasinmaz"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taşınmaz"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yapı Sayısı    :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3.714"
+                        android:id="@+id/tasinmaz_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parsel Sayısı:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22,3"
+                        android:id="@+id/tasinmaz_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tesis Sayısı  :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1,8"
+                        android:id="@+id/tasinmaz_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Araç Sayısı   :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/tasinmaz_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:id="@+id/ll_orman_varlik"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orman Varlığı"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Verimli (ha)              :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3.714"
+                        android:id="@+id/varlik_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bozuk (ha)               :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22,3"
+                        android:id="@+id/varlik_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ormanlık Alan (ha) :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1,8"
+                        android:id="@+id/varlik_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/varlik_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:id="@+id/varlik_5"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:id="@+id/varlik_6"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koruma"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biy. Müc. Alanı :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.4"
+                        android:id="@+id/ozm_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Böcek Üretim Mik.:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17.350"
+                        android:id="@+id/ozm_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kuş Yuvası:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.537"
+                        android:id="@+id/ozm_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ozm4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/ozm_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            -->
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:padding="5dp"
+                android:id="@+id/ll_fidanlik"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fidanlık"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fidanlık Say.           :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="55"
+                        android:id="@+id/fid_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Üretim Kapasitesi :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="321.784.256"
+                        android:id="@+id/fid_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/fid_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/fid_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:id="@+id/fid_5"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/small_textsize"
+                        android:id="@+id/fid_6"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/yonetici_ekrani_border_width"
+                android:id="@+id/ll_hukuk"
+                android:padding="5dp"
+                android:background="@drawable/linear_layout_shadow"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hukuk"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/red"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dava Sayısı                  :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.300"
+                        android:id="@+id/hukuk_1"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Özel Büt. Asıl Alacak :"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/small_textsize" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="965.732"
+                        android:id="@+id/hukuk_2"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Özel Büt.Yarg.Gideri   :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="247"
+                        android:id="@+id/hukuk_3"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Döner Ser.Asıl Alacak:"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/hukuk_4"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Döner Ser.Yarg.Gid.    :"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/blue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/hukuk_5"
+                        android:textSize="@dimen/small_textsize"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mr_dataselectoritem_txt"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_margin="10dp"
+    android:text="item"
+    android:background="@drawable/mr_edittext_gradient"
+    android:layout_marginBottom="10dp"
+    style="@style/mr_fe_in_edittext"
+    android:ellipsize="marquee" />

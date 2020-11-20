@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/myedittextstylebacktranswithgrayborder"
+    android:touchscreenBlocksFocus="true"
+    android:layout_height="wrap_content">
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/guzergah_item_kayit_no"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/guzergah_item_txt1"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/guzergah_item_txt2"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/guzergah_item_txt3"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/guzergah_item_txt4"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+
+</LinearLayout>

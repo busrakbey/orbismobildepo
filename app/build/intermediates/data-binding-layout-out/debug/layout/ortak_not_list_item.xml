@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/my_new_list_item_style"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content">
+
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+
+        android:textSize="@dimen/dd_list_view_item_text_size"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/item_kayit_no"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <!--<TextView
+
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/not_tarih"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+        -->
+
+    <TextView
+
+        android:textSize="@dimen/dd_list_view_item_text_size"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/item_object_id"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:textSize="@dimen/dd_list_view_item_text_size"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/item_yol_kodu"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+
+    <TextView
+
+        android:textSize="@dimen/dd_list_view_item_text_size"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/text"
+        android:id="@+id/not_aciklama"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <Button
+        android:background="@drawable/my_grass_button"
+        android:id="@+id/ortak_not_sunucuya_gonder_button"
+        android:drawableLeft="@android:drawable/stat_sys_upload_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text=" Sunucuya Gönder   " />
+
+
+
+    <!--
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+
+    <Button
+        android:background="@drawable/my_grass_button"
+        android:id="@+id/ortak_not_sil_button"
+        android:drawableLeft="@android:drawable/ic_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="    Yolu Sil    " />
+        -->
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_gradient"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="5dip" >
+
+    <!--  -->
+
+    <ImageView
+        android:id="@+id/mr_diadeftree_item_imgleft"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="left"
+        android:src="@drawable/orbis_stamp" />
+
+
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/mr_diadeftree_item_imgRight"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+
+    <TextView
+        android:id="@+id/mr_diadeftree_item_Title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mr_diadeftree_item_imgleft"
+        android:layout_toRightOf="@+id/mr_diadeftree_item_imgleft"
+        android:layout_centerVertical="true"
+        android:paddingBottom ="9dip"
+        android:text="-------"
+        android:textColor="@color/mylabeltextcolor"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+    <TextView
+        android:id="@+id/ip_dik_dam_listitem2_txtDefinition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:text="-"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_alignParentLeft="true" />
+
+
+    <Button
+        android:background="@drawable/ip_dd_listitem_bg"
+        android:id="@+id/mr_diadeftree_item_addRemoveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dip"
+        android:layout_alignTop="@+id/mr_diadeftree_item_Title_txt"
+        android:layout_toLeftOf="@+id/mr_diadeftree_item_imgRight"
+        android:text="Ekle"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="mr_dialog_textview">35sp</dimen>
+    <dimen name="mr_dialog_title_text">40sp</dimen>
+
+    <dimen name="actionbar_height">40dp</dimen>
+
+    <dimen name="actionbar_logo_width">25dp</dimen>
+    <dimen name="actionbar_logo_height">30dp</dimen>
+    <dimen name="actionbar_button_width">60dp</dimen>
+    <dimen name="actionbar_button_height">25dp</dimen>
+    <dimen name="actionbar_button_textSize">10sp</dimen>
+
+    <dimen name="actionbar_textSize">14sp</dimen>
+
+    <dimen name="topbar_height">20dp</dimen>
+
+    <dimen name="topbar_icon_width">15dp</dimen>
+    <dimen name="topbar_icon_height">15dp</dimen>
+    <dimen name="topbar_textSize">10sp</dimen>
+
+    <dimen name="login_logo_width">150dp</dimen>
+    <dimen name="login_logo_height">150dp</dimen>
+
+    <dimen name="form_textSize">10sp</dimen>
+
+    <!--Liste Tablo-->
+    <dimen name="liste_textview_size">8sp</dimen>
+    <dimen name="liste_textview_width">30dp</dimen>
+    <dimen name="liste_textview_width_buyuk">60dp</dimen>
+
+
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_space">85dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+
+    <dimen name="radius">3dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="card_gap">60dp</dimen>
+    <dimen name="card_gap_bottom">5dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp80">80dp</dimen>
+    <dimen name="card_radius">5dp</dimen>
+    <dimen name="dp16">16dp</dimen>
+
+
+    <dimen name="mr_inputsize">25sp</dimen>
+    <dimen name="mr_labelsize">15sp</dimen>
+    <dimen name="mr_titlesize">60sp</dimen>
+    <dimen name="mr_listbox_height">500dp</dimen>
+    <dimen name="mr_toolbar_height">120dp</dimen>
+    <dimen name="mr_window_form_cell_padding10">0dp</dimen>
+    <dimen name="mr_input_button_width">100dp</dimen>
+    <dimen name="mr_input_button_height">50dp</dimen>
+    <dimen name="mr_inputsizebig">35sp</dimen>
+
+
+    <dimen name="mr_navbar_heigth">90dp</dimen>
+    <dimen name="mr_navbar_heigth_kucuk">40dp</dimen>
+    <dimen name="mr_navbar_heigth_en_kucuk">30dp</dimen>
+    <dimen name="mr_navbar_imgbutton_heigth">50dp</dimen>
+    <dimen name="mr_navbar_imgbutton_width">50dp</dimen>
+    <dimen name="mr_navbar_label_textviewsize">20dp</dimen>
+    <dimen name="mr_navbar_button_textsize">20dp</dimen>
+
+    <dimen name="home_act_label_size">32sp</dimen>
+    <dimen name="plan_selector_labelsize">32sp</dimen>
+    <dimen name="oa_grid_view_label_size">20sp</dimen>
+    <dimen name="oa_frag_text_size">20sp</dimen>
+    <dimen name="oa_diger_bilgiler_label_size">20sp</dimen>
+    <dimen name="buyuk_label_size">35sp</dimen>
+
+
+    <dimen name="edittext_height">75dp</dimen>
+    <dimen name="spinner_height">100sp</dimen>
+    <dimen name="spinner_height2">50sp</dimen>
+    <dimen name="abc_dialog_list_padding_vertical_material">50sp</dimen>
+
+
+    <dimen name="headerTextSize">22sp</dimen>
+    <dimen name="newsMoreTextSize">14sp</dimen>
+    <dimen name="loginCardRadius">20dp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
+
+    <dimen name="signup_text_margin_top">10dp</dimen>
+
+</resources>

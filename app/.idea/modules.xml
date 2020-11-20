@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jxl/jxl.iml" filepath="$PROJECT_DIR$/../jxl/jxl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../orbismobile.iml" filepath="$PROJECT_DIR$/../orbismobile.iml" />
+    </modules>
+  </component>
+</project>

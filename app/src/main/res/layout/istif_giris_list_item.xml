@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:descendantFocusability="blocksDescendants"-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/lineer_layout"
+    android:background="@drawable/my_new_list_item_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content"
+    >
+
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/istif_foto_list_item_istif_no"
+        style="@style/listTable_SatirTextView_buyuk"
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:id="@+id/istif_foto_list_item_lokasyon"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="40dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:id="@+id/istif_foto_list_item_yil"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/istif_foto_list_item_istif_no2"
+        style="@style/listTable_SatirTextView_buyuk"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+    <View
+        style="@style/listTable_satirAyracView"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"></View>
+
+    <TextView
+        android:id="@+id/istif_foto_list_item_lokasyon2"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/yeni_foto_button"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ip_dd_li_itm_ttx_title"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:layout_weight="0.1"
+        android:background="@drawable/my_grass_button"
+        android:text=""
+        android:padding="10dp"
+        android:drawableLeft="@drawable/camera20" />
+    <Button
+        android:id="@+id/sil_button"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ip_dd_li_itm_ttx_title"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:layout_weight="0.1"
+        android:background="@drawable/my_grass_button"
+        android:text=" "
+        android:paddingLeft="5dp"
+        android:drawableLeft="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>

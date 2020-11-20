@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:descendantFocusability="blocksDescendants"-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/my_new_list_item_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content"
+    >
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:id="@+id/vejetasyon_bolme_item_txt"
+        android:text=""
+        style="@style/listTable_SatirTextView"
+        />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <Button
+
+        android:layout_weight="0.5"
+        android:background="@drawable/my_grass_button"
+        android:id="@+id/vejetasyon_senkron_et_button"
+        android:drawableLeft="@drawable/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="0dip"
+        android:paddingLeft="5dp"
+        android:text=" Senkron et   "
+        />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+
+</LinearLayout>

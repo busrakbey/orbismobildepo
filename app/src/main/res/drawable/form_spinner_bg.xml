@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><layer-list>
+        <item><shape>
+            <gradient android:angle="90" android:endColor="#ffffff"  android:startColor="#ffffff" android:type="linear" />
+            <size android:width="@dimen/abc_dialog_list_padding_vertical_material" android:height="@dimen/abc_dialog_list_padding_vertical_material"></size>
+            <stroke android:width="1px" android:color="@color/mr_haki"/>
+            <corners android:radius="0dp" />
+
+        </shape></item>
+        <item ><bitmap
+            android:gravity="bottom|right"
+            android:src="@android:drawable/arrow_down_float" />
+        </item>
+
+    </layer-list></item>
+
+</selector>

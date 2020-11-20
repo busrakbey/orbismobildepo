@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/my_new_list_item_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content"
+    >
+
+
+
+
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+    <TextView
+        android:layout_weight="1"
+
+        android:textSize="16sp"
+        android:id="@+id/vej_saha_x_item_text"
+        android:text=""
+        style="@style/listTable_SatirTextView_buyuk" />
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:id="@+id/vej_saha_y_item_text"
+        android:text=""
+        style="@style/listTable_SatirTextView"
+        />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+
+</LinearLayout>

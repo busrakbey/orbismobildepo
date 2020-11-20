@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_login_bk.png",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_login_bk.png"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\md_nav_back.png",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\drawable-ldpi-v4\\md_nav_back.png"
+    }
+]

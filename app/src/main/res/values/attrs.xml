@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="OrbisNumberPicker">
+        <attr name="snp_labeltext" format="string"/>
+        <attr name="snp_min" format="integer"/>
+        <attr name="snp_max" format="integer"/>
+        <attr name="snp_value" format="integer"/>
+        <attr name="snp_arrowColor" format="color"/>
+        <attr name="snp_backgroundColor" format="color"/>
+        <attr name="snp_numberColor" format="color"/>
+        <attr name="snp_intermediate" format="boolean"/>
+
+    </declare-styleable>
+    <declare-styleable name="OrbisDatePicker">
+        <attr name="sdp_backgroundColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CardStackLayout">
+        <attr name="parallax_enabled" format="boolean" />
+        <attr name="parallax_scale" format="integer" />
+        <attr name="card_gap" format="dimension" />
+        <attr name="card_gap_bottom" format="dimension" />
+        <attr name="showInitAnimation" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="OrbisAutoComplete">
+        <attr name="entity_name" format="string" />
+        <attr name="data_name" format="string" />
+        <attr name="query_string" format="string" />
+
+    </declare-styleable>
+</resources>

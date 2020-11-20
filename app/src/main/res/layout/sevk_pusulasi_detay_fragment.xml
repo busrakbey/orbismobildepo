@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:fillViewport="true"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <RelativeLayout
+                android:visibility="invisible"
+                android:layout_height="1dp"
+                style="@style/mr_window_navbar_kucuk">
+                <ImageButton
+                    android:src="@android:drawable/arrow_down_float"
+                    style="@style/mr_window_navbar_imgbutton"
+                    android:id="@+id/navbar_ImgHomeButton2" />
+
+                <ImageButton
+                    android:id="@+id/navbar_imgrightButton2"
+                    style="@style/topbaractioniconstyle"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/sevk_faaliyet_detay_beyan_fragment_containerOnOfButton"
+                    android:textColor="@color/bembeyaz"
+                    android:textSize="20sp"
+                    android:text=" Filtre "
+
+                    android:background="@drawable/my_green_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/navbar_ImgHomeButton2"
+                    android:layout_toEndOf="@+id/navbar_ImgHomeButton2" />
+
+                <LinearLayout  style="@style/topbarbottomviewline">
+
+
+
+                </LinearLayout>
+
+                <Button
+                    android:visibility="visible"
+                    android:id="@+id/sevk_faaliyet_detay_beyan_sorgula"
+                    android:background="@drawable/refresh"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:textAlignment="gravity"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:id="@+id/sevk_detay_UI_linearTop1"
+                android:visibility="invisible"
+                android:layout_height="0dp"
+                style="@style/myFormContainerOriHori">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto">
+                    <LinearLayout
+                        style="@style/mr_window_form_frame">
+                        <LinearLayout
+                            style="@style/mr_window_form_frame">
+
+
+                            <!-- Line 3 Start -->
+                            <LinearLayout
+
+                                style="@style/mr_window_form_row_container">
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    style="@style/mr_window_form_cell_container">
+
+
+                                    <TextView
+                                        android:text="Kişi"
+                                        android:textSize="25dp"
+                                        android:textColor="@color/blue"
+                                        style="@style/mr_fe_in_textview" />
+
+                                    <AutoCompleteTextView
+                                        android:layout_width="350dp"
+                                        android:text=""
+                                        style="@style/listTable_SatirTextView"
+                                        android:inputType="text"
+                                        android:layout_height="40dp"
+                                        android:textSize="20dp"
+                                        android:id="@+id/sevk_auto_complete_kisi"
+                                        android:layout_gravity="left" />
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <!-- Line 3 Start -->
+                            <LinearLayout
+
+                                style="@style/mr_window_form_row_container">
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="10dp"
+                                    style="@style/mr_window_form_cell_container">
+
+                                    <TextView
+                                        android:text="Ürün Çeşidi"
+                                        android:textSize="25dp"
+                                        android:textColor="@color/blue"
+                                        style="@style/mr_fe_in_textview" />
+
+                                    <AutoCompleteTextView
+                                        android:layout_width="350dp"
+                                        android:text=""
+                                        style="@style/listTable_SatirTextView"
+                                        android:inputType="text"
+                                        android:layout_height="40dp"
+                                        android:textSize="20dp"
+                                        android:id="@+id/sevk_auto_complete_urun"
+                                        android:layout_gravity="left" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_bisque"
+                android:id="@+id/sevk_bilgi_layout"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toplam Adet:"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="@dimen/normal_definition_text_size"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/red"
+                    android:id="@+id/sevk_sayi_toplam_textview" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Toplam Hacim(M3) :"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/normal_definition_text_size"
+                            android:layout_marginLeft="@dimen/wide_margin_left"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="@dimen/normal_definition_text_size"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/red"
+                            android:id="@+id/sevk_hacim_toplam_textview" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/top_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Toplam Hacim(Ster):"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/normal_definition_text_size"
+                            android:layout_marginLeft="@dimen/wide_margin_left"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="@dimen/normal_definition_text_size"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/red"
+                            android:id="@+id/sevk_hacim_ster_toplam_textview" />
+                    </LinearLayout>
+                </LinearLayout>>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <!--
+            <RelativeLayout
+                style="@style/mr_window_navbar_kucuk">
+
+
+               <Button
+                    android:visibility="visible"
+                    android:onClick="sevk_sil_button_click"
+                    android:textColor="@color/kirlibeyaz"
+                    android:textSize="@dimen/button_text"
+                    android:text="  Hepsini Sil  "
+                    android:paddingLeft="5dp"
+                    android:background="@drawable/my_grass_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/remove_32"
+                    android:textAlignment="gravity"
+                    android:id="@+id/button_sevk_sil" />
+
+
+
+                <LinearLayout  style="@style/topbarbottomviewline"
+                    android:orientation="horizontal"
+                    android:id="@+id/linearLayout9">
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+            -->
+
+
+            <TextView
+                android:background="@drawable/myedittextstylebacktranswithgrayborder"
+                android:textColor="@color/text"
+                android:textSize="@dimen/mr_navbar_label_textviewsize"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="Sevk Pusulası Detayları"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                style="@style/listTable_satircontainerLinearwrapwraphoriz"
+                android:layout_marginTop="0dp">
+
+                <CheckBox
+                    android:layout_weight="0.1"
+                    android:id="@+id/sevk_detay_all_checkbox"
+                    android:text=""
+                    android:visibility="invisible"
+                    android:layout_marginLeft="15dp"
+                    android:button="@drawable/custom_checkbox2"
+                    style="@style/listTable_SatirTextView_buyuk" />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+
+                <TextView
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:layout_weight="1"
+                    android:text="Üretim Tarihi"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView_buyuk"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+                <TextView
+                    android:layout_weight="2"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:text="Ağaç Cinsi"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+                <TextView
+                    android:layout_weight="2"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:text="Ürün Çeşidi"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="Boy Sınıfı"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="Kalite Sınıfı"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:text="Kimlik No"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:text="Orta Çap(cm)"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:text="Boy(m)"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:text="Hacmi(Ster-M3)"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="@dimen/dar_list_view_item_text_size"
+                    android:text="Hacim Ölçü Birimi"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    style="@style/listTable_SatirTextView"
+                    />
+                <View
+                    style="@style/listTable_satirAyracView"></View>
+
+            </LinearLayout>
+
+
+
+          <!--  <ListView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:animationCache="false"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true"
+                android:stackFromBottom="false"
+                android:background="@drawable/ip_dd_listitem_bg"
+                android:id="@+id/sevk_faaliyet_detay_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ExpandableListView
+                    android:id="@+id/sevk_expandable_listview"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+
+                    android:groupIndicator="@drawable/expandable_listview_group_indicator"
+                    android:indicatorLeft="1dp"
+
+                    android:divider="@android:color/darker_gray"
+                    android:dividerHeight="0.5dp"
+                    />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="16dp"
+                    android:id="@+id/sevk_remove_action_button"
+                    android:src="@drawable/cancel_float_kucuk"
+                    app:fabSize="normal"
+                    android:scaleType="center"
+
+                    app:layout_anchor="@id/sevk_expandable_listview"
+                    app:layout_anchorGravity="bottom|right|end" />
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>

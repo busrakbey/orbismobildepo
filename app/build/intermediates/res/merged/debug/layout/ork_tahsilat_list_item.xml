@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_gradient_orkoy"
+    android:orientation="horizontal"
+    android:touchscreenBlocksFocus="true">
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/uyg_proj_proje_adi_tahsilat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:textColor="@color/text"
+        android:textSize="12sp" />
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/uyg_proj_proje_adet_tahsilat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.5"
+        android:gravity="left"
+        android:textColor="@color/text"
+        android:textSize="12sp" />
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+</LinearLayout>

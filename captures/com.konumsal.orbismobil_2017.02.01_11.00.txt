@@ -1,0 +1,232 @@
+TASK com.konumsal.orbismobil id=15
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.OrtakNotGuzergahActivity 967fec50 pid=25047
+    Local FragmentActivity 9678e470 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 968a5ad0:
+      #0: OrtakNotFragment{9789cb48 #0 id=0x7f0d0121 android:switcher:2131558689:0}
+        mFragmentId=#7f0d0121 mContainerId=#7f0d0121 mTag=android:switcher:2131558689:0
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=false
+        mFragmentManager=FragmentManager{968a5ad0 in HostCallbacks{968a5a98}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@968a5a98
+        mContainer=android.support.v4.view.ViewPager{97800d10 VFED.... ........ 0,108-800,1207 #7f0d0121 app:id/viewpager}
+        mView=android.widget.LinearLayout{97815cb0 V.E..... ........ 0,0-800,1099}
+        mInnerView=android.widget.LinearLayout{97815cb0 V.E..... ........ 0,0-800,1099}
+        Child FragmentManager{968c8478 in OrtakNotFragment{9789cb48}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@968a5a98
+            mContainer=android.support.v4.app.Fragment$1@968c84f8
+            mParent=OrtakNotFragment{9789cb48 #0 id=0x7f0d0121 android:switcher:2131558689:0}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #1: OrtakGuzergahFragment{97888120 #1 id=0x7f0d0121 android:switcher:2131558689:1}
+        mFragmentId=#7f0d0121 mContainerId=#7f0d0121 mTag=android:switcher:2131558689:1
+        mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{968a5ad0 in HostCallbacks{968a5a98}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@968a5a98
+        mContainer=android.support.v4.view.ViewPager{97800d10 VFED.... ........ 0,108-800,1207 #7f0d0121 app:id/viewpager}
+        mView=android.widget.LinearLayout{96867c78 V.E..... ........ 800,0-1600,1099}
+        mInnerView=android.widget.LinearLayout{96867c78 V.E..... ........ 800,0-1600,1099}
+        Child FragmentManager{968cfaf8 in OrtakGuzergahFragment{97888120}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@968a5a98
+            mContainer=android.support.v4.app.Fragment$1@968cfb78
+            mParent=OrtakGuzergahFragment{97888120 #1 id=0x7f0d0121 android:switcher:2131558689:1}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: OrtakNotFragment{9789cb48 #0 id=0x7f0d0121 android:switcher:2131558689:0}
+      #1: OrtakGuzergahFragment{97888120 #1 id=0x7f0d0121 android:switcher:2131558689:1}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@968a5a98
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@968a5a98
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{97852f68 V.E..... ... 0,0-800,1232}
+        android.widget.LinearLayout{9673cd50 V.E..... ... 0,0-800,1232}
+          android.view.ViewStub{9673cae0 G.E..... ... 0,0-0,0 #1020354}
+          android.widget.FrameLayout{977703e0 V.E..... ... 0,25-800,1232}
+            android.support.v7.widget.FitWindowsLinearLayout{977c8838 V.E..... ... 0,0-800,1207 #7f0d0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{96764af0 G.E..... ... 0,0-0,0 #7f0d0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{97826730 V.ED.... ... 0,0-800,1207 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{9785b490 V.E..... ... 0,0-800,1207 #7f0d011d app:id/main_content}
+                  android.widget.LinearLayout{97930158 V.E..... ... 0,0-800,1207 #7f0d00be app:id/gp_oa_ui_rootLayout}
+                    android.widget.RelativeLayout{96778f10 V.E..... ... 0,0-800,60}
+                      android.support.v7.widget.Toolbar{96869df8 V.E..... ... 0,0-800,60 #7f0d011e app:id/toolbar}
+                        android.widget.TextView{97787030 V.ED.... ... 116,16-163,44}
+                        android.widget.ImageButton{97804098 VFED..C. ... 8,2-64,62}
+                        android.widget.ImageView{97887780 V.ED.... ... 64,6-112,54}
+                        android.support.v7.widget.ActionMenuView{97862bf0 V.E..... ... 792,2-792,62}
+                      android.support.v7.widget.AppCompatButton{9792b320 IFED..C. ... 682,5-795,57 #7f0d011f app:id/ozm_st_suc_tutanagi_kaydet_button}
+                    android.support.design.widget.TabLayout{97786828 VFED.... ... 0,60-800,108 #7f0d0120 app:id/tabs}
+                      android.support.design.widget.TabLayout$SlidingTabStrip{978a3d80 V.ED.... ... 0,0-800,48}
+                        android.support.design.widget.TabLayout$TabView{97891bb8 VFE...C. ... 0,0-160,48}
+                          android.support.v7.widget.AppCompatImageView{9780ede0 G.ED.... ... 0,0-0,0}
+                          android.support.v7.widget.AppCompatTextView{977f9b30 V.ED.... ... 32,0-128,47}
+                        android.support.design.widget.TabLayout$TabView{978a3a70 VFE...C. .S. 160,0-374,48}
+                          android.support.v7.widget.AppCompatImageView{9781be50 G.ED.... .S. 0,0-0,0}
+                          android.support.v7.widget.AppCompatTextView{977fe260 V.ED.... .S. 12,0-202,47}
+                    android.support.v4.view.ViewPager{97800d10 VFED.... ... 0,108-800,1207 #7f0d0121 app:id/viewpager}
+                      android.widget.LinearLayout{97815cb0 V.E..... ... 0,0-800,1099}
+                        android.widget.LinearLayout{97872e60 V.E..... ... 10,10-790,1089}
+                          android.widget.RelativeLayout{9784ad08 V.E..... ... 0,5-780,60}
+                            android.support.v7.widget.AppCompatButton{97935048 VFED..C. ... 10,0-145,48 #7f0d0205 app:id/yeni_not_button}
+                            android.support.v7.widget.AppCompatButton{96776028 VFED..C. ... 328,0-462,48 #7f0d0206 app:id/not_all_delete_button}
+                            android.support.v7.widget.AppCompatButton{967ba8a8 VFED..C. ... 172,0-298,48 #7f0d0207 app:id/not_indir_button}
+                          android.support.v7.widget.AppCompatTextView{977f9fc8 V.ED.... ... 0,60-780,101}
+                          android.widget.LinearLayout{97816f48 V.E..... ... 0,101-780,129}
+                            android.view.View{9684ecf8 V.ED.... ... 0,0-1,28}
+                            android.support.v7.widget.AppCompatTextView{977f9540 V.ED.... ... 11,0-155,28}
+                            android.view.View{97794220 V.ED.... ... 155,0-156,28}
+                            android.support.v7.widget.AppCompatTextView{967d4d38 V.ED.... ... 166,0-311,28}
+                            android.view.View{977f9948 V.ED.... ... 311,0-312,28}
+                            android.support.v7.widget.AppCompatTextView{9778b690 V.ED.... ... 322,0-467,28}
+                            android.view.View{97839ff0 V.ED.... ... 467,0-468,28}
+                            android.support.v7.widget.AppCompatTextView{967c5450 V.ED.... ... 478,0-623,28}
+                            android.view.View{9783d2b8 V.ED.... ... 623,0-624,28}
+                            android.support.v7.widget.AppCompatTextView{967cd088 V.ED.... ... 634,0-779,28}
+                            android.view.View{978989d8 V.ED.... ... 779,0-780,28}
+                          android.widget.ListView{977f8550 V.ED.VC. ... 0,129-780,1079 #7f0d0208 app:id/ortak_not_ListView}
+                      android.widget.LinearLayout{96867c78 V.E..... ... 800,0-1600,1099}
+                        android.widget.LinearLayout{9686b508 V.E..... ... 10,10-790,1089}
+                          android.widget.RelativeLayout{977f89b0 V.E..... ... 0,5-780,60}
+                            android.support.v7.widget.AppCompatButton{9685c298 VFED..C. ... 10,0-190,48 #7f0d01fa app:id/gps_takip_baslat_button}
+                            android.support.v7.widget.AppCompatButton{97928470 VFED..C. ... 427,0-561,48 #7f0d01fb app:id/guzergah_all_delete_button}
+                            android.widget.LinearLayout{977fc878 V.E..... ... 10,54-770,55}
+                            android.support.v7.widget.AppCompatButton{967d1838 VFED..C. ... 225,0-394,48 #7f0d01fc app:id/guzergah_indir_button}
+                          android.support.v7.widget.AppCompatTextView{977c99b0 V.ED.... ... 0,60-780,101}
+                          android.widget.LinearLayout{97823f40 V.E..... ... 0,101-780,129}
+                            android.view.View{96790e78 V.ED.... ... 0,0-1,28}
+                            android.support.v7.widget.AppCompatTextView{96779188 V.ED.... ... 11,0-155,28}
+                            android.view.View{97803650 V.ED.... ... 155,0-156,28}
+                            android.support.v7.widget.AppCompatTextView{9785fe78 V.ED.... ... 166,0-311,28}
+                            android.view.View{97808d78 V.ED.... ... 311,0-312,28}
+                            android.support.v7.widget.AppCompatTextView{967c2690 V.ED.... ... 322,0-467,28}
+                            android.view.View{97876f60 V.ED.... ... 467,0-468,28}
+                            android.support.v7.widget.AppCompatTextView{9780d5b0 V.ED.... ... 478,0-623,28}
+                            android.view.View{97785668 V.ED.... ... 623,0-624,28}
+                            android.support.v7.widget.AppCompatTextView{9792f038 V.ED.... ... 634,0-779,28}
+                            android.view.View{9678a410 V.ED.... ... 779,0-780,28}
+                          android.widget.ListView{9792b6d0 VFED.VC. ... 0,129-780,1079 #7f0d01fd app:id/ortak_guzergah_ListView}
+                            android.widget.LinearLayout{977d1440 V.E..... ... 0,0-780,166}
+                              android.view.View{97843300 V.ED.... ... 7,8-8,158}
+                              android.support.v7.widget.AppCompatTextView{9792d7e0 V.ED.... ... 18,8-155,42 #7f0d0209 app:id/not_tarih}
+                              android.view.View{978b32a0 V.ED.... ... 155,8-156,158}
+                              android.support.v7.widget.AppCompatTextView{977fa5b0 V.ED.... ... 166,8-303,42 #7f0d020a app:id/not_aciklama}
+                              android.view.View{967a56f8 V.ED.... ... 303,8-304,158}
+                              android.support.v7.widget.AppCompatTextView{9792e1a0 V.ED.... ... 314,8-452,129 #7f0d020b app:id/not_konu}
+                              android.view.View{9780f530 V.ED.... ... 452,8-453,158}
+                              android.support.v7.widget.AppCompatTextView{977d8158 V.ED.... ... 463,8-601,158 #7f0d020c app:id/not_is_kalemi}
+                              android.view.View{96716038 V.ED.... ... 601,8-602,158}
+                              android.support.v7.widget.AppCompatButton{979303b8 VFED..C. ... 602,8-773,56 #7f0d020d app:id/ortak_not_sunucuya_gonder_button}
+                            android.widget.LinearLayout{9792da90 V.E..... ... 0,167-780,333}
+                              android.view.View{9677ccd8 V.ED.... ... 7,8-8,158}
+                              android.support.v7.widget.AppCompatTextView{967ebe08 V.ED.... ... 18,8-155,42 #7f0d0209 app:id/not_tarih}
+                              android.view.View{977745b8 V.ED.... ... 155,8-156,158}
+                              android.support.v7.widget.AppCompatTextView{967ec0b8 V.ED.... ... 166,8-303,42 #7f0d020a app:id/not_aciklama}
+                              android.view.View{977b0688 V.ED.... ... 303,8-304,158}
+                              android.support.v7.widget.AppCompatTextView{967d50e0 V.ED.... ... 314,8-452,129 #7f0d020b app:id/not_konu}
+                              android.view.View{978a37d8 V.ED.... ... 452,8-453,158}
+                              android.support.v7.widget.AppCompatTextView{967d5390 V.ED.... ... 463,8-601,158 #7f0d020c app:id/not_is_kalemi}
+                              android.view.View{9793fc50 V.ED.... ... 601,8-602,158}
+                              android.support.v7.widget.AppCompatButton{978b3d28 VFED..C. ... 602,8-773,56 #7f0d020d app:id/ortak_not_sunucuya_gonder_button}
+
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.Home2Activity 96ebc4f8 pid=25047
+    Local FragmentActivity 9671cd30 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@96727698
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@96727698
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{9783a1b8 I.E..... ... 0,0-800,1232}
+        android.widget.LinearLayout{9782b528 V.E..... ... 0,0-800,1232}
+          android.view.ViewStub{9671a1a0 G.E..... ... 0,0-0,0 #1020354}
+          android.widget.FrameLayout{9791e3d8 V.E..... ... 0,25-800,1232}
+            android.support.v7.widget.FitWindowsLinearLayout{97837040 V.E..... ... 0,0-800,1207 #7f0d0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{96727bf8 G.E..... ... 0,0-0,0 #7f0d0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{967577d8 V.ED.... ... 0,0-800,1207 #1020002 android:id/content}
+                android.widget.LinearLayout{9672c1f0 V.E..... ... 0,0-800,1207}
+                  android.support.v7.widget.Toolbar{96729ba8 V.E..... ... 0,0-800,64 #7f0d0202 app:id/ortak_home2_toolbar}
+                    android.widget.ImageButton{97831640 VFED..C. ... 8,0-80,64}
+                    android.widget.TextView{978380f0 V.ED.... ... 132,18-190,46}
+                    android.widget.ImageView{9673f798 V.ED.... ... 80,8-128,56}
+                    android.support.v7.widget.ActionMenuView{97838a78 V.E..... ... 752,0-792,64}
+                      android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton{9673d5e8 VFED..C. ... 0,8-40,56}
+                  android.widget.LinearLayout{9676ac00 V.E..... ... 0,64-800,1207}
+                    android.widget.LinearLayout{9671bb60 V.E..... ... 0,0-800,388}
+                      android.widget.ListView{9783b470 V.ED.VC. ... 10,0-790,388 #7f0d0203 app:id/home_page_duyurular_listview}
+                    android.widget.LinearLayout{967495a8 V.E..... ... 0,388-800,576}
+                      android.support.v7.widget.AppCompatButton{978291f0 VFED..C. ... 0,0-400,188}
+                      android.support.v7.widget.AppCompatButton{9784d328 VFED..C. ... 400,0-800,188}
+                    android.widget.LinearLayout{9671be50 V.E..... ... 0,576-800,765}
+                      android.support.v7.widget.AppCompatButton{97942378 VFED..C. ... 0,0-400,189}
+                      android.support.v7.widget.AppCompatButton{978540a8 VFED..C. ... 400,0-800,189}
+                    android.widget.LinearLayout{97829548 V.E..... ... 0,765-800,954}
+                      android.support.v7.widget.AppCompatButton{97830178 VFED..C. ... 0,0-400,189}
+                      android.support.v7.widget.AppCompatButton{97851e68 VFED..C. ... 400,0-800,189}
+                    android.widget.LinearLayout{96747f98 V.E..... ... 0,954-800,1143}
+                      android.support.v7.widget.AppCompatButton{96734fa0 VFED..C. ... 0,0-800,189}
+                    android.widget.LinearLayout{9673a638 I.E..... ... 0,1143-800,1143}
+                      android.support.v7.widget.AppCompatButton{9670dde0 VFED..C. ... 0,0-340,0}
+                      android.support.v7.widget.AppCompatImageView{9672d8e8 V.ED.... ... 340,0-800,150 #7f0d0204 app:id/imageView}
+
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.Home2Activity 9692d8a0 pid=(not running)
+
+  ACTIVITY com.konumsal.orbismobil/.OrtakUI.LoginActivity 96ab1a28 pid=25047
+    Local Activity 9671af60 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.8}
+    FragmentManager misc state:
+      mActivity=com.konumsal.orbismobil.OrtakUI.LoginActivity@9671af60
+      mContainer=android.app.Activity$1@9671b128
+      mCurState=3 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{96710c10 I.E..... R......D 0,0-800,1232}
+        android.widget.LinearLayout{96751090 V.E..... .......D 0,0-800,1232}
+          android.view.ViewStub{96729630 G.E..... ......I. 0,0-0,0 #1020354}
+          android.widget.FrameLayout{96731b50 V.ED.... .......D 0,25-800,1232 #1020002 android:id/content}
+            android.widget.FrameLayout{9672df50 V.E..... .......D 0,0-800,1207}
+              android.widget.FrameLayout{967348b0 V.E..... .......D 0,0-800,1207}
+                android.widget.LinearLayout{9674b038 V.E..... .......D 0,0-800,1207}
+                  android.widget.FrameLayout{9672d4c0 V.E..... .......D 0,0-800,1207}
+                    android.widget.FrameLayout{96745c60 V.E..... ........ 0,0-800,1207 #7f0d0071 app:id/login_act_container}
+                    android.widget.LinearLayout{96754180 V.E..... .......D 0,0-800,1207 #7f0d0073 app:id/act_home_framemain}
+                      android.widget.LinearLayout{967461e0 V.E..... .......D 0,0-800,477}
+                        android.widget.LinearLayout{9672d070 V.E..... ........ 0,0-162,0}
+                        android.widget.LinearLayout{9673e688 V.E..... .......D 162,0-637,477}
+                          android.widget.LinearLayout{96732d28 V.E..... .......D 0,0-475,477 #7f0d0074 app:id/loginForm}
+                            android.view.View{9672bc48 V.ED.... ........ 0,0-475,10}
+                            android.widget.ImageView{96756110 V.ED.... ........ 162,100-312,250 #7f0d0075 app:id/imageViewLoginAct}
+                            android.widget.LinearLayout{96728fd8 V.E..... ........ 0,250-475,266}
+                              android.view.View{96729318 V.ED.... ......ID 0,8-237,8}
+                              android.support.design.widget.TextInputLayout{9674ab08 V.ED.... ......ID 237,8-237,8}
+                                android.widget.EditText{96752248 VFED..CL .F....ID 0,11-0,11}
+                              android.view.View{9672ad60 V.ED.... ......ID 237,8-475,8}
+                            android.widget.LinearLayout{967391d0 V.E..... .......D 0,266-475,342}
+                              android.view.View{96739558 V.ED.... ........ 0,38-47,38}
+                              android.support.design.widget.TextInputLayout{96739780 V.ED.... .......D 47,8-427,68}
+                                android.widget.EditText{96739f10 VFED..CL ......ID 0,11-380,60 #7f0d0076 app:id/login_act_txtUserName}
+                              android.view.View{96749920 V.ED.... ........ 427,38-475,38}
+                            android.view.View{96749b48 V.ED.... ........ 0,342-475,352}
+                            android.widget.LinearLayout{96749d70 V.E..... .......D 0,352-475,428}
+                              android.view.View{96723cf0 V.ED.... ........ 0,38-47,38}
+                              android.support.design.widget.TextInputLayout{96723e50 V.ED.... .......D 47,8-427,68}
+                                android.widget.EditText{96724560 VFED..CL ......ID 0,11-380,60 #7f0d0077 app:id/login_act_txtPassword}
+                              android.view.View{96758158 V.ED.... ........ 427,38-475,38}
+                            android.view.View{96758380 V.ED.... ........ 0,428-475,429}
+                            android.widget.LinearLayout{967585a8 V.E..... ........ 0,429-475,477}
+                              android.widget.Button{96758aa0 VFED..C. ........ 0,0-158,48 #7f0d0078 app:id/buttonSetting}
+                              android.view.View{9675a628 V.ED.... ......ID 158,24-316,24}
+                              android.widget.Button{9675a850 VFED..C. ........ 316,0-475,48 #7f0d0079 app:id/login_act_btnLogin}
+                        android.widget.LinearLayout{9675b6f8 V.E..... ........ 637,0-800,0}
+                      android.widget.RelativeLayout{9675bae8 V.E..... ........ 0,477-800,1207}
+                        android.widget.ImageView{9675c020 V.ED.... ......ID 0,716-800,716 #7f0d007a app:id/login_Act_ogmBottomImage}
+                        android.widget.TextView{9675c5f8 V.ED.... ........ 0,716-800,730 #7f0d007b app:id/login_Act_konumsallabel}

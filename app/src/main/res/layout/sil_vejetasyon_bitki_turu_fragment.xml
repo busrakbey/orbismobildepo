@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:weightSum="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="match_parent">
+        <requestFocus />
+
+
+        <RelativeLayout
+            style="@style/mr_window_navbar_kucuk"
+            android:layout_marginBottom="10dp"
+            >
+            <ImageButton
+                android:src="@android:drawable/ic_input_add"
+                style="@style/mr_window_navbar_imgbutton"
+
+                android:id="@+id/navbar_ImgHomeButton1" />
+
+
+            <TextView
+                android:text="Bitki Tür Bilgileri"
+                android:id="@+id/navbar_labelformName1"
+                style="@style/mr_window_navbar_label_textview"
+                android:textSize="21dp"
+                android:layout_alignTop="@+id/navbar_ImgHomeButton1"
+                android:layout_toRightOf="@+id/navbar_ImgHomeButton1"
+                android:layout_toEndOf="@+id/navbar_ImgHomeButton1" />
+
+
+
+
+
+
+
+            <LinearLayout  style="@style/topbarbottomviewline">
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:layout_height="100dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="100dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Bitki Türü"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:text=""
+                    android:inputType="text"
+                    android:layout_height="75dp"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:id="@+id/vej_bitki_turu_autoCompleteTextView"
+                    android:layout_marginTop="0dp"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/text"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:text="Örtme Yüzdesi"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <EditText
+                    android:id="@+id/vej_ortme_yuzdesi_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:text="Yaşam Gücü"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <EditText
+                    android:id="@+id/vej_yasam_gucu_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="text"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:text="Gruplama Şekli"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <EditText
+                    android:id="@+id/vej_gruplama_sekli_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="text"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:layout_height="100dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="100dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Otsu/Odunsu"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <Spinner
+                    android:id="@+id/vej_otsu_odunsu_spinner"
+                    android:background="@color/my_bisque"
+                    style="@style/mr_fe_in_spinner"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:text="Etüt Tarihi"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <EditText
+                    android:id="@+id/vej_etut_tarihi_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="date"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:text="Eğim"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <EditText
+                    android:id="@+id/vej_egim_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="date"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:text="Denizden Yükseklik"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <EditText
+                    android:id="@+id/vej_denizden_yukseklik_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="date"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:text="Düşünceler"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+                <EditText
+                    android:id="@+id/vej_dusunceler_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="textMultiLine"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                style="@style/mr_window_form_row_container">
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    style="@style/mr_window_form_cell_container">
+                    <Button
+                        android:id="@+id/vej_bitki_kaydet_button"
+                        android:drawableLeft="@android:drawable/ic_menu_save"
+                        android:text="K a y d e t"
+                        android:textColor="@color/bembeyaz"
+                        android:textSize="45sp"
+                        android:background="@color/orman_yesili"
+                        android:paddingLeft="10dp"
+                        style="@style/mr_fe_in_button_linee"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            style="@style/listTable_satircontainerLinearwrapwraphoriz"
+            android:layout_marginTop="0dp">
+
+
+
+            <View
+                style="@style/listTable_satirAyracView"></View>
+
+            <TextView
+                android:textSize="17sp"
+                android:layout_weight="1"
+                android:text="Bitki Türü"
+                android:textColor="@color/text"
+                style="@style/listTable_SatirTextView_buyuk"
+                />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:text="Örtme Yüzdesi"
+                android:textColor="@color/text"
+                style="@style/listTable_SatirTextView"
+                />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:text="Yaşam Gücü"
+                android:textColor="@color/text"
+                style="@style/listTable_SatirTextView"
+                />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:text="Gruplama Şekli"
+                android:textColor="@color/text"
+                style="@style/listTable_SatirTextView"
+                />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:text="Otsu/Odunsu"
+                android:textColor="@color/text"
+                style="@style/listTable_SatirTextView"
+                />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:text="Etüt Tarihi"
+                android:textColor="@color/text"
+                style="@style/listTable_SatirTextView"
+                />
+            <View
+                style="@style/listTable_satirAyracView"></View>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:animationCache="false"
+                android:scrollingCache="true"
+                android:layout_marginTop="5dp"
+                android:listSelector="#00000000"
+                android:smoothScrollbar="true"
+                android:stackFromBottom="false"
+                android:background="@drawable/ip_dd_listitem_bg"
+                android:id="@+id/vej_bitki_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

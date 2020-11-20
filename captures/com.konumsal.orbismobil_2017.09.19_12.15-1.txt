@@ -1,0 +1,48 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        96b0ef50 com.konumsal.orbismobil/.MainActivity filter 96b0f0c0
+ 
+Permissions:
+  Permission [com.konumsal.orbismobil.DbHelper] (96714c98):
+    sourcePackage=com.konumsal.orbismobil
+    uid=10051 gids=[] type=0 prot=normal
+    packageSetting=PackageSetting{9672b2f8 com.konumsal.orbismobil/10051}
+    perm=Permission{96ba0328 com.konumsal.orbismobil.DbHelper}
+ 
+Packages:
+  Package [com.konumsal.orbismobil] (9672b2f8):
+    userId=10051 gids=[1028, 3003, 1015, 1006, 3002, 3001]
+    sharedUser=null
+    pkg=Package{96baf100 com.konumsal.orbismobil}
+    codePath=/data/app/com.konumsal.orbismobil-2.apk
+    resourcePath=/data/app/com.konumsal.orbismobil-2.apk
+    nativeLibraryPath=/data/app-lib/com.konumsal.orbismobil-2
+    versionCode=1
+    applicationInfo=ApplicationInfo{96ab4200 com.konumsal.orbismobil}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    versionName=1.0
+    dataDir=/data/data/com.konumsal.orbismobil
+    targetSdk=23
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-09-19 09:11:49
+    firstInstallTime=2017-08-24 07:00:20
+    lastUpdateTime=2017-09-19 09:11:52
+    signatures=PackageSignatures{9672b3c0 [9672bcd0]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    User 0:  installed=true stopped=false notLaunched=false enabled=0
+    grantedPermissions:
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.CAMERA
+      android.permission.BLUETOOTH
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS

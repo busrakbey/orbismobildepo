@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_gradient_orkoy"
+    android:orientation="horizontal"
+    android:touchscreenBlocksFocus="true">
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/gerceklesme_adet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="12sp" />
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/gerceklesme_tutar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="12sp" />
+
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/gerceklesme_adet2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="12sp" />
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/gerceklesme_tutar2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="12sp" />
+
+
+    <View style="@style/listTable_satirAyracView"></View>
+
+</LinearLayout>

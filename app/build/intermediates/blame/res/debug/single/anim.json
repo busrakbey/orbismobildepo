@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab1_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab1_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_2_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_2_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\m_myanimation_anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\m_myanimation_anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_2_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_2_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\decelerate_cubic.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\anim\\decelerate_cubic.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_5_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_5_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\m_slide_anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\m_slide_anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab1_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab1_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab4_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab4_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_1_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_1_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab4_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab4_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab2_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab2_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\m_fade_anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\m_fade_anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\animation_two.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\animation_two.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_3_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_3_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_5_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_5_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_animation.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\dialog_animation.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\m_clockwise_anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\m_clockwise_anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\m_blink_anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\m_blink_anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_0_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_0_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\sctrl_anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\sctrl_anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab3_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab3_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotateanim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\rotateanim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake_anim_interpolator.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\shake_anim_interpolator.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_4_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_4_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotateanim360.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\rotateanim360.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_0_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_0_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab2_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab2_hide.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scaleupdown.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\scaleupdown.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.5\\res\\anim\\popup_exit.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\m_my2anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\m_my2anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scaleanim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\scaleanim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_4_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_4_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab3_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab3_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shakeanim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\shakeanim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\m_move_anim.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\m_move_anim.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_1_show.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_1_show.xml"
+    },
+    {
+        "merged": "D:\\OrbisOzetMobil\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_tool_3_hide.xml",
+        "source": "D:\\OrbisOzetMobil\\app\\src\\main\\res\\anim\\fab_tool_3_hide.xml"
+    }
+]

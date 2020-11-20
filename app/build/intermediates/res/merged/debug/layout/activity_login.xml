@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+                <FrameLayout
+                    android:layout_below="@+id/login_Act_TopbarRelativ"
+
+                    android:fillViewport="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <FrameLayout
+
+                        android:id="@+id/login_act_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></FrameLayout>
+
+                    <LinearLayout
+
+                        android:orientation="vertical"
+                        android:layout_below="@+id/scrollViewlogin"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/act_home_framemain"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"></LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/loginForm" >
+                                    <View android:layout_width="fill_parent"
+                                        android:layout_height="10dp"
+                                        />
+                                    <ImageView
+                                        android:layout_marginTop="90dip"
+                                        android:src="@drawable/ogmlogo2"
+                                        android:layout_width="@dimen/login_logo_width"
+                                        android:layout_height="@dimen/login_logo_height"
+                                        android:id="@+id/imageViewLoginAct"
+                                        android:layout_gravity="center_vertical|center_horizontal" />
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_vertical"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <View
+                                            android:layout_weight="1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp" />
+                                        <android.support.design.widget.TextInputLayout
+                                            android:layout_weight="0"
+
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp"
+                                            android:layout_marginTop="8dp"
+                                            android:layout_marginBottom="8dp">
+                                            <EditText
+                                                android:focusable="true"
+                                                android:gravity="center|fill_horizontal"
+                                                android:backgroundTint="@color/text"
+                                                android:textColor="@color/text"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:textSize="25sp"
+                                                android:drawableLeft="@mipmap/ic_person"
+                                                android:hint="Kullanıcı Adı"
+                                                android:singleLine="true"/>
+                                        </android.support.design.widget.TextInputLayout>
+
+                                        <View
+                                            android:layout_weight="1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp" />
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_gravity="center_vertical"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <View
+                                            android:layout_weight="1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp" />
+                                        <android.support.design.widget.TextInputLayout
+                                            android:layout_weight="8"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="8dp"
+                                            android:layout_marginBottom="8dp">
+                                            <EditText
+                                                android:gravity="center|fill_horizontal"
+                                                android:backgroundTint="@color/text"
+                                                android:textColor="@color/text"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:textSize="25sp"
+                                                android:id="@+id/login_act_txtUserName"
+                                                android:drawableLeft="@mipmap/ic_person"
+                                                android:hint="Kullanıcı Adı"
+                                                android:singleLine="true"/>
+                                        </android.support.design.widget.TextInputLayout>
+
+                                        <View
+                                            android:layout_weight="1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp" />
+
+                                    </LinearLayout>
+                                    <View android:layout_width="fill_parent"
+                                        android:layout_height="10dp"
+                                        />
+                                    <!--  Password  -->
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_vertical"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+                                        <View
+                                            android:layout_weight="1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp" />
+
+                                        <android.support.design.widget.TextInputLayout
+                                            android:layout_weight="8"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="8dp"
+                                            android:layout_marginBottom="8dp">
+                                            <EditText
+                                                android:gravity="center|fill_horizontal"
+                                                android:backgroundTint="@color/text"
+                                                android:textColor="@color/text"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:textSize="25sp"
+                                                android:id="@+id/login_act_txtPassword"
+                                                android:drawableLeft="@mipmap/ic_key"
+                                                android:hint="Parola"
+                                                android:singleLine="true"
+                                                android:password="true"/>
+                                        </android.support.design.widget.TextInputLayout>
+                                        <View
+                                            android:layout_weight="1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp" />
+                                    </LinearLayout>
+
+                                    <View android:layout_width="fill_parent"
+                                        android:layout_height="1dp"
+                                        />
+                                    <!-- Login button -->
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_vertical"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <Button
+                                            android:onClick="login_Act_ayarOnClick"
+                                            android:textSize="20sp"
+                                            android:drawableLeft="@drawable/settings"
+                                            android:paddingLeft="5dp"
+                                            android:text="Ayar"
+                                            android:gravity="center"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/text"
+                                            android:background="@drawable/login_buttons"
+                                            android:layout_weight="1"
+                                            android:layout_centerVertical="true"
+                                            android:id="@+id/buttonSetting" />
+                                        <View
+                                            android:layout_weight="1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp" />
+                                        <Button
+
+                                            android:drawableRight="@drawable/login"
+                                            android:textSize="20sp"
+                                            android:onClick="LoginOnClick"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/text"
+                                            android:background="@drawable/login_buttons"
+                                            android:paddingRight="5dp"
+                                            android:layout_weight="1"
+                                            android:id="@+id/login_act_btnLogin"
+                                            android:gravity="center"
+                                            android:layout_width="0dp"
+                                            android:text="Giriş"/>
+
+
+                                    </LinearLayout>
+                                    <!-- Link to Registration Screen -->
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"></LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_marginBottom="0dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+
+                                android:id="@+id/login_Act_ogmBottomImage"
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/login_Act_konumsallabel"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true" />
+                            <TextView
+                                android:textSize="@dimen/form_textSize"
+                                android:layout_alignParentBottom="true"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:layout_gravity="bottom|center_horizontal|center_vertical"
+                                android:id="@+id/login_Act_konumsallabel"
+                                android:textColor="@color/bembeyaz"
+                                android:background="@color/transparent"
+                                android:text="powered by © konumsal.com.tr"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>
+
+
+

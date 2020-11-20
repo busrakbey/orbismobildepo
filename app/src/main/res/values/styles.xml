@@ -1,0 +1,1168 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+
+        <item name="android:actionBarStyle">@style/AppBaseTheme.MyActionBarStyle</item>
+        <item name="actionBarStyle">@style/AppBaseTheme.MyActionBarStyle</item>
+    </style>
+    <style name="AppBaseTheme.MyActionBarStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="logo">@mipmap/ic_launcher</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:title">Orbis</item>
+        <item name="displayOptions">useLogo|showHome|showTitle|showCustom</item>
+    </style>
+    <style name="AppBaseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+
+        <!-- For each individual Spinner list item once clicked on -->
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
+    </style>
+
+    <style name="spinnerItemStyle"  parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:padding">@dimen/top_margin</item>
+        <item name="android:textSize">@dimen/normal_definition_text_size</item>
+        <item name="android:textColor">@color/siyah</item>m>
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <item name="android:padding">@dimen/top_margin</item>
+        <item name="android:textSize">@dimen/big_definition_text_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@color/viridian</item>
+        <item name="android:textAppearance">@style/mr_edittext</item>
+
+    </style>
+
+    <style name="MySpinnerLook" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">60sp</item>
+    </style>
+
+
+
+    <!-- dialog elements -->
+    <style name="mr_dialog_textview">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/mr_dialog_textview</item>
+    </style>
+    <style name="mr_dialog_title_textview">
+        <item name="android:textColor">@color/bembeyaz</item>
+        <item name="android:textSize">@dimen/mr_dialog_title_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:text">Orbis</item>
+    </style>
+
+    <!--topbar-->
+    <style name="topbarstyle">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+
+    </style>
+    <style name="topbarbottomviewline">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">@color/view_divider_color</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="topbarlabeltextstyle" >
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/topbar_textSize</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:text">FormName</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+    <style name="topbariconstyle" >
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">@dimen/topbar_icon_width</item>
+        <item name="android:layout_height">@dimen/topbar_icon_height</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:src">@android:drawable/ic_menu_edit</item>
+
+    </style>
+    <style name="topbaractioniconstyle" parent="form_base_InputtextStyle_3w">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">@dimen/topbar_icon_width</item>
+        <item name="android:layout_height">@dimen/topbar_icon_height</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="topbar_buttonstyle_grayboder" parent="form_base_InputtextStyle_3w">
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:text">FormName</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!-- 1 column form styles-->
+    <style name="myformContainerFor1Column">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/formborderstyle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="myformLineFor1Column">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/formcellbacktransandlightgrayborder</item>
+    </style>
+
+
+
+    <style name="actionbarTextviewStyle" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:textSize">@dimen/actionbar_textSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/bembeyaz</item>
+        <item name="android:text">Orbis</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="formEditTextMultiLine6" parent="form_base_InputtextStyle_3w">
+        <item name="android:lines">6</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:hint">TextViewCell</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="formEditTextMultiLine3" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:lines">3</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:singleLine">false</item>
+
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:hint">TextViewCell</item>
+
+    </style>
+    <style name="formEditTextViewForString" parent="form_base_InputtextStyle_3w">
+
+
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:hint">TextViewCell</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="formEditTextViewForNumber" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:inputType">number</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:hint">TextViewCellNumber</item>
+    </style>
+    <style name="formEditTextViewFornumberDecimal" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:inputType">numberDecimal</item>
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+
+        <item name="android:hint">TextViewCellNumberDec</item>
+
+    </style>
+    <style name="formAutoCompleteStyle" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:completionThreshold">3</item>
+        <item name="android:hint">Autocomplete</item>
+
+    </style>
+    <style name="formAutoCompleteForNumericStyle" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:inputType">number</item>
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+
+        <item name="android:hint">Autocomplete</item>
+
+    </style>
+    <style name="formAutoCompleteForNumericDecimalStyle" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:inputType">numberDecimal</item>
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+
+        <item name="android:hint">Autocomplete</item>
+
+    </style>
+    <style name="formAutoCompleteForDateImageStyle" parent="form_base_InputtextStyle_3w">
+
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+
+        <item name="android:inputType">none</item>
+        <item name="android:hint"></item>
+
+    </style>
+
+    <style name="formAutoCompleteForClockImageStyle" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:inputType">time</item>
+        <item name="android:hint">TimeAutocomplete</item>
+
+
+    </style>
+    <style name="formAutoCompleteStyleSearchIcon" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:completionThreshold">3</item>
+        <item name="android:hint">Autocomplete</item>
+    </style>
+
+    <style name="formMultiAutoCompleteStyle" parent="form_base_InputtextStyle_3w">
+        <item name="android:textSize">25sp</item>
+        <item name="android:completionThreshold">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:hint">multiautocomplete</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="formDateButtonStyle" parent="form_base_InputtextStyle_3w">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">@dimen/actionbar_textSize</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:text">Tarih</item>
+        <item name="android:textSize">@dimen/form_textSize</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="formlabelButton" parent="form_base_InputtextStyle_3w">
+        <item name="android:typeface">serif</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1.2</item>
+        <item name="android:text">Button</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textSize">@dimen/form_textSize</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="formCheckBoxStyle" parent="form_base_InputtextStyle_3w">
+        <item name="android:textSize">@dimen/form_textSize</item>
+
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:layout_gravity">left|center_horizontal|center_vertical</item>
+    </style>
+    <style name="formButtonStyle3w_grayborder" parent="form_base_InputtextStyle_3w">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:text">DÃ¼gme</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="formcellTextviewStyle" parent="form_base_InputtextStyle_3w">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/form_textSize</item>
+        <item name="android:layout_weight">1.2</item>
+        <item name="android:text">LabelCell</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_gravity">right|center</item>
+    </style>
+    <style name="form_spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/form_textSize</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+
+        <item name="android:hint">Seçiniz..</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+    <!-- <style name="form_spinnerItemTextView" parent="android:Widget.TextView.SpinnerItem"> -->
+    <style name="form_spinnerItemTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/form_textSize</item>
+        <item name="android:typeface">monospace</item>
+
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <!--<item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item> -->
+
+    </style>
+
+    <style name="form_base_InputtextStyle_3w">
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:textSize">@dimen/form_textSize</item>
+        <item name="android:ems">10</item>
+        <item name="android:completionThreshold">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <style name="form_spinnerDropDownItemStyle" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">45sp</item>
+    </style>
+
+
+    <!-- ActionBAR  Variables-->
+    <style name="mf_ActionBar_style" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/mr_haki</item>
+        <item name="android:icon">@mipmap/ic_launcher</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:layout_width">fill_parent</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/mr_haki</item>
+
+    </style>
+    <style name="mf_ActionBar_labelTextviewStyle">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/bembeyaz</item>
+        <item name="android:text">Orbis Mobile</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="mf_ActionBar_button_parent">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_width">@dimen/actionbar_button_width</item>
+        <item name="android:layout_height">@dimen/actionbar_button_height</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/actionbar_button_textSize</item>
+        <item name="android:text">Button</item>
+    </style>
+    <style name="mf_ActionBar_button_WhiteBorder_BackTransStyle" parent="mf_ActionBar_button_parent" >
+        <item name="android:textColor">@color/mr_haki</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="mf_ActionBar_button_RedBorder_BackTransStyle" parent="mf_ActionBar_button_parent">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/mr_haki</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="mf_ActionBar_button_GreenBorder_BackTransStyle" parent="mf_ActionBar_button_parent">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/mr_haki</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+
+
+    <!-- MR STYLE-->
+    <style name="mr_window_navbar">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/mr_navbar_heigth</item>
+
+    </style>
+
+    <style name="mr_window_navbar_kucuk">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/mr_navbar_heigth_kucuk</item>
+
+    </style>
+
+    <style name="mr_window_navbar_en_kucuk">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/mr_navbar_heigth_en_kucuk</item>
+
+    </style>
+
+
+
+    <style name="mr_window_navbar_imgbutton" >
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">@dimen/mr_navbar_imgbutton_width</item>
+        <item name="android:layout_height">@dimen/mr_navbar_imgbutton_heigth</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:src">@android:drawable/ic_menu_edit</item>
+
+    </style>
+    <style name="mr_window_navbar_label_textview" >
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/mr_navbar_label_textviewsize</item>
+        <item name="android:textColor">@color/mr_haki</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:text">FormName</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="mr_window_navbar_button" >
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/mr_navbar_label_textviewsize</item>
+        <item name="android:textColor">@color/mr_haki</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:text">button</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="mr_window_form_frame">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_weight">3</item>
+
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+    <style name="mr_window_form_container">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="mr_window_form_row_container">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/mr_windowform_cell</item>
+    </style>
+
+    <style name="mr_window_form_cell_container">
+        <item name="android:padding">@dimen/mr_window_form_cell_padding10</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/mr_windowform_cell</item>
+    </style>
+
+
+    <style name="mr_fe_input_size">
+        <item name="android:textSize">@dimen/mr_inputsize</item>
+        <item name="android:background">@drawable/mr_edittext_gradient</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="mr_fe_input_size_big">
+        <item name="android:textSize">@dimen/mr_inputsizebig</item>
+        <item name="android:background">@color/my_bisque</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="mr_fe_input_size_colorful">
+        <item name="android:textSize">@dimen/mr_inputsizebig</item>
+        <item name="android:background">@color/my_bisque</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="mr_fe_label_size">
+        <item name="android:textSize">@dimen/mr_labelsize</item>
+    </style>
+    <style name="mr_fe_in_textview" parent="mr_fe_label_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="mr_fe_in_edittext" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+
+    <style name="mr_fe_in_edittext_colorful" parent="mr_fe_input_size_colorful">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="mr_fe_in_edittext_multiline3" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">3</item>
+    </style>
+    <style name="mr_fe_in_edittext_multiline5" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">5</item>
+    </style>
+    <style name="mr_fe_in_edittext_number" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">number</item>
+    </style>
+    <style name="mr_fe_in_edittext_decimal" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+    <style name="mr_fe_in_dateinput" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">none</item>
+    </style>
+
+    <style name="mr_fe_in_timeinput" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="mr_fe_in_checkbox" parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/mr_input_element_frame</item>
+
+    </style>
+
+
+    <style name="mr_fe_in_autocomplete"  parent="mr_fe_input_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="mr_fe_in_autocompletebig"  parent="mr_fe_input_size_big">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="mr_fe_in_button_linee"  parent="mr_fe_label_size">
+        <item name="android:background">@drawable/mr_input_element_frame</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+    <style name="mr_fe_in_spinner" >
+        <item name="android:prompt">@string/Secinizi</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/spinner_height</item>
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:background">@drawable/form_spinner_bg</item>
+    </style>
+
+
+
+
+
+
+    <style name="spinnerItemStyleInAcordion"  parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:padding">@dimen/top_margin</item>
+        <item name="android:textSize">@dimen/normal_definition_text_size</item>
+        <item name="android:textColor">@color/siyah</item>m>
+    </style>
+    <style name="spinnerDropDownItemStyleInAcordion" parent="Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <item name="android:padding">@dimen/top_margin</item>
+        <item name="android:textSize">@dimen/big_definition_text_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@color/viridian</item>
+        <item name="android:textAppearance">@style/mr_edittext</item>
+
+    </style>
+    <style name="mr_fe_in_spinner_in_acordion">
+        <item name="android:prompt">@string/Secinizi</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/spinner_height</item>
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:background">@drawable/form_spinner_bg</item>
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyleInAcordion</item>
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyleInAcordion</item>
+    </style>
+
+
+
+
+
+    <!-- List preference -->
+    <style name="mr_fe_listview">
+
+    </style>
+
+    <!-- tab layout -->
+    <style name="mr_fe_tablayout">
+
+        <item name="android:background">@color/mr_haki</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/normal_spinner_height</item>
+
+
+
+    </style>
+
+    <style name="mr_edittext" parent="Widget.AppCompat.EditText" >
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">@color/mr_haki</item>
+        <item name="colorControlHighlight">@color/grikoyu</item>
+        <item name="android:textSize">@dimen/mr_labelsize</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+    </style>
+
+
+    <!-- List Table Elements  -->
+
+    <style name="listTable_horizontalscrollViewcontainer1">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="listTable_Linearcontainer2_wrap_wrap_vertical">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">@drawable/formcellbacktransandlightgrayborder</item>
+    </style>
+    <style name="listTable_titlebarcontainerLinearwrapwraphoriz">
+
+        <item name="android:background">@drawable/listtable_titlecontainerstyle</item>
+        <item name="android:layout_marginTop">1dp</item>
+
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+    <style name="listTable_titleColumnNameforTextView100dp" parent="listTable_LabeltextView">
+        <item name="android:text">ColumnName</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:background">@drawable/formcellbacktransandlightgrayborder</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_gravity">right|center</item>
+
+    </style>
+    <style name="listTable_titleColumnNameforTextView120dp" parent="listTable_LabeltextView">
+
+
+
+    </style>
+    <style name="listTable_titleImageView300dp">
+        <item name="android:layout_height">500dp</item>
+        <item name="android:layout_width">500dp</item>
+        <!--  <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>-->
+
+
+    </style>
+
+    <style name="listTable_titleColumnNameforTextView100dpgrayback"  parent="listTable_LabeltextView">
+
+        <item name="android:layout_width">100dp</item>
+        <item name="android:background">@color/myformcellbordercolor</item>
+        <item name="android:textColor">@color/bembeyaz</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_gravity">right|center</item>
+
+    </style>
+    <style name="listTable_titleColumnNameforTextView120dpgrayback"  parent="listTable_LabeltextView">
+
+        <item name="android:background">@color/myformcellbordercolor</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+
+    </style>
+    <style name="listTable_titleColumnNameforTextView600dpgrayback"  parent="listTable_LabeltextView">
+
+        <item name="android:layout_width">600dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:background">@color/myformcellbordercolor</item>
+
+
+    </style>
+
+    <style name="listTable_ListView">
+        <item name="android:divider">@color/view_divider_color</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="listTable_checkboxitem_w120dp">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_gravity">right|center</item>
+    </style>
+    <style name="listTable_checkboxitem_w100dp">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/liste_textview_width</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:textSize">@dimen/liste_textview_size</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:background">@drawable/formcellbacktransandlightgrayborder</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_gravity">right|center</item>
+    </style>
+    <style name="listTable_LabeltextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:text">txt</item>
+        <item name="android:textSize">@dimen/liste_textview_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/liste_textview_width</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+
+    </style>
+    <style name="listTable_satirAyracView">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:background">@color/mygray</item>
+    </style>
+    <style name="listTable_satircontainerLinearwrapwraphoriz">
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="listTable_SatirTextView" parent="listTable_LabeltextView">
+        <item name="android:text">txt</item>
+        <item name="android:textSize">@dimen/liste_textview_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/liste_textview_width</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+
+    </style>
+
+
+
+    <style name="listTable_LabeltextView_buyuk">
+        <item name="android:typeface">serif</item>
+        <item name="android:text">txt</item>
+        <item name="android:textSize">@dimen/liste_textview_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/liste_textview_width_buyuk</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+
+    </style>
+    <style name="listTable_SatirTextView_buyuk" parent="listTable_LabeltextView_buyuk">
+        <item name="android:text">txt</item>
+        <item name="android:textSize">@dimen/liste_textview_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/liste_textview_width_buyuk</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/mylabeltextcolor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+
+    </style>
+
+    <style name="listTable_SatirContainerLinear">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/myedittextstylebacktranswithgrayborder</item>
+    </style>
+
+
+
+    <!-- form stilleri -->
+
+    <style name="formContainerStyle">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/formborderstyle</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="formLineStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="formCellStyle">
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/formcellbacktransandlightgrayborder</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <!-- my form stilleri Kolonlu   -->
+    <style name="myFormContainerOriHori">
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+
+    </style>
+    <style name="myFormContainerOriHori_height600" parent="myFormContainerOriHori">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">500dp</item>
+
+    </style>
+    <style name="myformColumnContainerw4">
+
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="myformColumnLinew4">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingLeft">3dp</item>
+
+    </style>
+    <!--    -->
+    <style name="actionbarlogostyle">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">left|center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">left|center_vertical|center_horizontal</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--
+        <item name="android:layout_width">@dimen/actionbar_logo_width</item>
+        <item name="android:layout_height">@dimen/actionbar_logo_height</item>
+         -->
+        <item name="android:src">@mipmap/ic_launcher</item>
+
+    </style>
+
+
+
+    <style name="plan_selector_style">
+        <item name="android:textSize">@dimen/plan_selector_labelsize</item>
+    </style>
+
+    <style name="oa_grid_vew_adapter_style">
+        <item name="android:textSize">@dimen/oa_grid_view_label_size</item>
+    </style>
+
+    <style name="oa_frag_text_style_size">
+        <item name="android:textSize">@dimen/oa_frag_text_size</item>
+    </style>
+    <style name="oa_frag_text_style" parent="oa_frag_text_style_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="oa_tab_item_style" parent="Widget.AppCompat.EditText" >
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">@color/mr_haki</item>
+        <item name="colorControlHighlight">@color/grikoyu</item>
+        <item name="android:textSize">@dimen/oa_grid_view_label_size</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+    </style>
+
+
+    <style name="dd_tab_item_style" parent="Widget.AppCompat.EditText" >
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">@color/mr_haki</item>
+        <item name="colorControlHighlight">@color/grikoyu</item>
+        <item name="android:textSize">@dimen/tab_label_size</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="orkoy_tab_item_style" parent="Widget.AppCompat.EditText" >
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">@color/mr_haki</item>
+        <item name="colorControlHighlight">@color/grikoyu</item>
+        <item name="android:textSize">@dimen/big_definition_text_size</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+    </style>
+
+
+
+    <style name="oa_diger_bilgiler_size">
+        <item name="android:textSize">@dimen/oa_diger_bilgiler_label_size</item>
+        <item name="android:background">@drawable/mr_edittext_gradient</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="oa_diger_bilgiler_label_style" parent="oa_diger_bilgiler_size">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">none</item>
+    </style>
+
+
+
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+
+
+
+
+
+
+    <style name="MyTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">@dimen/edittext_height</item>
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPaddingStart">6dp</item>
+        <item name="tabPaddingEnd">6dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/MyTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/orange_200</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/normal_spinner_height</item>
+    </style>
+
+    <!-- for text -->
+    <style name="MyTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="OrkoyDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!--designs for login and register-->
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="loginParent" parent="parent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/loginBkColor</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+
+    <style name="headerText" parent="parent">
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="linearParent" parent="parent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="headerTextPrimary" parent="headerText">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@drawable/login_button_bk</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="loginCard" parent="parent"></style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorProgressBar</item>
+    </style>
+
+</resources>

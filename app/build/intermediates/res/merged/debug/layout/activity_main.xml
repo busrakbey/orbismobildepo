@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/leafbcsplash"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/ImageViewGirisLogo"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:alpha=".90"
+        android:src="@drawable/ogmlogo2"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/idorbisloading"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="@color/orange_900"
+        android:text="Orbis Mobile\n Yükleniyor..."
+        android:layout_below="@+id/ImageViewGirisLogo"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:layout_below="@+id/idorbisloading"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_act_ProgressBar"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:textColor="@color/mr_haki"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text=" © konumsal.com.tr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

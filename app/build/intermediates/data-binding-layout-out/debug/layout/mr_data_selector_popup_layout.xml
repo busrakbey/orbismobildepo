@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/mr_labelsize"
+        android:text="Seçiniz.."
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/mrdataselectorvazgecbutton"
+            android:text="Vazgeç"
+
+            style="@style/mr_fe_in_button_linee" />
+   <!--     <Button
+            android:layout_weight="1"
+            android:id="@+id/mrdataselectortemizlebutton"
+            android:text="Temizle"
+            style="@style/mr_fe_in_button_linee" /> -->
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/mrdataselectoryeniagacturubutton"
+            android:text="Ağaç Türü Tanımları"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            style="@style/mr_fe_in_button_linee" />
+
+    </LinearLayout>
+  <EditText
+
+      android:windowSoftInputMode="stateAlwaysHidden"
+      android:id="@+id/mr_dataselectoritem_filter"
+      style="@style/mr_fe_in_edittext" />
+<ListView
+    android:id="@+id/mr_dataselectorpopup_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <requestFocus></requestFocus>
+</ListView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/mr_window_form_frame">
+        <LinearLayout
+            style="@style/mr_window_form_frame">
+            <!-- Nav Bar Start -->
+            <RelativeLayout
+                style="@style/mr_window_navbar">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_edit"
+                    style="@style/mr_window_navbar_imgbutton"
+                    android:id="@+id/navbar_ImgHomeButton1" />
+
+                <ImageButton
+                    android:id="@+id/navbar_imgrightButton1"
+                    style="@style/topbaractioniconstyle"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:text="Ağaç Listesi"
+                    android:id="@+id/navbar_labelformName1"
+                    style="@style/mr_window_navbar_label_textview"
+                    android:layout_alignBottom="@+id/navbar_ImgHomeButton1"
+                    android:layout_toRightOf="@+id/navbar_ImgHomeButton1"
+                    android:layout_toEndOf="@+id/navbar_ImgHomeButton1" />
+                <LinearLayout  style="@style/topbarbottomviewline">
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/mr_dia_def_treelist_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
