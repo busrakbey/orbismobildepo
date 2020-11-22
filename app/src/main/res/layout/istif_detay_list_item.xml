@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:descendantFocusability="blocksDescendants"-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/lineer_layout"
+    android:background="@drawable/my_new_list_item_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content"
+    >
+
+
+
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:id="@+id/istif_foto_list_item_istif_no"
+
+        style="@style/listTable_SatirTextView_buyuk"
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="22sp" />
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:id="@+id/istif_foto_list_item_lokasyon"
+        android:text=""
+        style="@style/listTable_SatirTextView"
+        />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:id="@+id/istif_foto_list_item_yil"
+        android:text=""
+        style="@style/listTable_SatirTextView"
+        />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_gradient"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="5dip" >
+
+    <!--  -->
+
+    <ImageView
+        android:id="@+id/alt_menu_list_image"
+        android:layout_width="@dimen/small_list_item_image_height"
+        android:layout_height="@dimen/small_list_item_image_height"
+        android:layout_gravity="left"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ogmlogo2" />
+
+
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/alt_menu_imageView1"
+        android:contentDescription="@string/app_name"
+        android:layout_width="@dimen/small_list_item_image_height"
+        android:layout_height="@dimen/small_list_item_image_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+
+    <TextView
+        android:id="@+id/oym_alt_menu_li_itm_ttx_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/alt_menu_list_image"
+        android:layout_toRightOf="@+id/alt_menu_list_image"
+        android:layout_centerVertical="true"
+        android:paddingBottom ="9dip"
+        android:layout_marginLeft="@dimen/top_margin"
+        android:text="-------"
+        android:textColor="@color/mylabeltextcolor"
+        android:textSize="@dimen/normal_definition_text_size"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+    <TextView
+        android:id="@+id/oym_alt_menu_listitem2_txtDefinition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:text="-"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_below="@+id/alt_menu_list_image"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+</RelativeLayout>

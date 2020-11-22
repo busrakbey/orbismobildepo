@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/labeltextcolor"
+        android:gravity="center"
+        android:text=" Kayıt Girişi !"
+        android:textSize="@dimen/mr_labelsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/labeltextcolor"
+        android:layout_marginTop="30sp"
+        android:id="@+id/txtLoginConfirmationMessage"
+        android:textSize="@dimen/mr_inputsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="@color/mr_haki"
+            android:background="@color/transparent"
+            android:textSize="@dimen/mr_labelsize"
+            android:id="@+id/dialogButtonNeg"
+            android:text="Vazgeç"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            style="@style/mr_fe_in_button_linee" />
+        <Button
+            android:textColor="@color/mr_haki"
+            android:background="@color/transparent"
+            android:textSize="@dimen/mr_labelsize"
+            android:id="@+id/dialogButtonPositive"
+            android:text="Tamam"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            style="@style/mr_fe_in_button_linee" />
+    </LinearLayout>
+</LinearLayout>

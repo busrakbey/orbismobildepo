@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout_ip_alt_menu_list_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/gp_oa_ui_rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/ip_alt_menu_list_ui_toolbar"
+            android:background="@color/mr_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            />
+
+
+
+        <View android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shadow"/>
+
+
+
+        <LinearLayout
+            android:background="@drawable/list_gradient"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <GridView
+                android:id="@+id/ip_alt_menu_list_listView"
+                android:numColumns="1"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="10dp"
+                android:gravity="center"
+                android:stretchMode="columnWidth"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:minHeight="200dp"
+                android:layout_height="match_parent">
+            </GridView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="2dp"
+            android:background="@drawable/list_gradient"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <!--
+            <com.esri.android.map.MapView
+                android:id="@+id/gp_oa_karnelist_ui_mapview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.esri.android.map.MapView>-->
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:fillViewport="true"
+    android:layout_gravity="fill_vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/grafik_ana_ekran_list_ui_toolbar"
+            android:background="@color/mr_haki"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            />
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/rapor_ly2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:layout_height="75dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="75dp">
+                <TextView
+                    android:text="Raporlar"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+
+                <Spinner
+                    android:id="@+id/rapor_spinner"
+                    android:background="@color/my_bisque"
+                    style="@style/mr_fe_in_spinner"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/satis_ly"
+            android:layout_height="match_parent">
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChartSatis"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="match_parent">
+
+            </com.github.mikephil.charting.charts.BarChart>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/uretim_ly"
+            android:layout_height="match_parent">
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChartUretim"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="match_parent">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/damga_ly"
+            android:layout_height="match_parent">
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartDamga"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="match_parent">
+
+        </com.github.mikephil.charting.charts.BarChart>
+        </LinearLayout>
+
+
+
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <ListView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:animationCache="false"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"
+            android:stackFromBottom="false"
+            android:background="@drawable/ip_dd_listitem_bg"
+            android:id="@+id/oduh_envanter_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

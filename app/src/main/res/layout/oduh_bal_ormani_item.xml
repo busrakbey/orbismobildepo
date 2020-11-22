@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:descendantFocusability="blocksDescendants"-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/lineer_layout"
+    android:background="@drawable/list_gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content"
+    >
+
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/birinci_item"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:id="@+id/ikinci_item"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="40dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+        android:id="@+id/ucuncu_item"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/dorduncu_item"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+    <View
+        style="@style/listTable_satirAyracView"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"></View>
+
+    <TextView
+        android:id="@+id/besinci_item"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+
+    <View
+        style="@style/listTable_satirAyracView"></View>
+
+    <TextView
+
+        android:id="@+id/altinci_item"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+    <View
+        style="@style/listTable_satirAyracView"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"></View>
+
+    <TextView
+        android:id="@+id/yedinci_item"
+        style="@style/listTable_SatirTextView"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="12sp" />
+
+</LinearLayout>

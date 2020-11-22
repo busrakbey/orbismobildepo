@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Kapat"
+            android:id="@+id/not_kapat" />
+
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Kaydet"
+            android:id="@+id/not_kaydet" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="100dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="100dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Not Tarihi"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+            <EditText
+                android:id="@+id/not_tarih_edit_text"
+                android:background="@color/my_bisque"
+                android:selectAllOnFocus="true"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="date"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="125dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="İş Kalemi"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+            <Spinner
+                android:id="@+id/is_kalemi_spinner"
+                android:background="@color/my_bisque"
+                style="@style/mr_fe_in_spinner"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="125dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Konu"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+
+            <Spinner
+                android:id="@+id/konu_spinner"
+                android:background="@color/my_bisque"
+                style="@style/mr_fe_in_spinner"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+           <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:layout_height="125dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="125dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Yol Adı"
+                    android:textColor="@color/blue"
+                    style="@style/oa_frag_text_style"
+                    />
+
+                <EditText
+                    android:id="@+id/not_aciklama_edit_text"
+                    android:background="@color/my_bisque"
+                    android:selectAllOnFocus="true"
+                    style="@style/mr_fe_in_edittext_colorful"
+                    android:inputType="textMultiLine"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="125dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Yol Kodu"
+                android:textColor="@color/blue"
+                style="@style/oa_frag_text_style"
+                />
+
+            <EditText
+                android:id="@+id/yol_kodu_edit_text"
+                android:background="@color/my_bisque"
+                android:selectAllOnFocus="true"
+                style="@style/mr_fe_in_edittext_colorful"
+                android:inputType="textMultiLine"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

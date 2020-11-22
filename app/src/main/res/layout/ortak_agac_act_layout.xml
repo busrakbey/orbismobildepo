@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ortak_agacact_toolbar"
+        android:background="@color/mr_haki"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+    <!-- Nav Bar Start -->
+    <RelativeLayout
+        style="@style/mr_window_navbar">
+        <ImageButton
+            android:src="@android:drawable/ic_menu_edit"
+            style="@style/mr_window_navbar_imgbutton"
+            android:id="@+id/navbar_ImgHomeButton2" />
+
+        <ImageButton
+            android:id="@+id/navbar_imgrightButton2"
+            style="@style/topbaractioniconstyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:text="Varsayılan Ağaç Tablosu"
+            android:id="@+id/navbar_labelformName2"
+            style="@style/mr_window_navbar_label_textview"
+            android:layout_alignBottom="@+id/navbar_ImgHomeButton2"
+            android:layout_toRightOf="@+id/navbar_ImgHomeButton2"
+            android:layout_toEndOf="@+id/navbar_ImgHomeButton2" />
+        <!--
+           <Button
+            android:id="@+id/ortakagacact_navbarbtn2"
+            android:textSize="30sp"
+            android:text="x"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/navbar_imgrightButton2"
+            android:layout_toLeftOf="@+id/ortakagacact_navbarbtn1"
+            android:layout_toStartOf="@+id/ortakagacact_navbarbtn1" />
+        <Button
+            android:id="@+id/ortakagacact_navbarbtn1"
+            android:textColor="@color/bembeyaz"
+            android:layout_alignParentRight="true"
+            android:textSize="30sp"
+            android:text="+"
+            android:background="@android:color/darker_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        -->
+        <LinearLayout  style="@style/topbarbottomviewline">
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/ortakagac_act_gridagaclar"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:minHeight="400dp"
+        android:layout_height="match_parent">
+
+    </GridView>
+</LinearLayout>

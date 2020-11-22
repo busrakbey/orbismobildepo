@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:state_empty="true">
+        <layer-list>
+            <item
+                android:left="0dp"
+                android:right="3dp"
+                android:top="20dp"
+                android:bottom="20dp"
+                android:drawable="@drawable/right_48">
+            </item>
+        </layer-list>
+    </item>
+    <item  android:state_expanded="true">
+        <layer-list>
+            <item
+                android:left="0dp"
+                android:right="3dp"
+                android:top="20dp"
+                android:bottom="20dp"
+                android:drawable="@drawable/expand_48">
+            </item>
+        </layer-list>
+    </item>
+    <item android:drawable="@drawable/right_48">
+        <layer-list>
+            <item
+                android:left="0dp"
+                android:right="3dp"
+                android:top="20dp"
+                android:bottom="20dp"
+                android:drawable="@drawable/right_48">
+            </item>
+        </layer-list>
+    </item>
+</selector>

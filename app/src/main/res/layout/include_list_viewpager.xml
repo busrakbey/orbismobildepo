@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/gp_oa_ui_rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/tool_bar_height">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:background="@color/mr_haki"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:title="@string/app_name"/>
+
+            <Button
+                android:visibility="invisible"
+                android:onClick="ozm_st_suc_tutanagi_kaydet_button_click"
+                android:id="@+id/ozm_st_suc_tutanagi_kaydet_button"
+                android:textColor="@color/kirlibeyaz"
+                android:textSize="15sp"
+                android:text="  Kaydet"
+                android:background="@drawable/my_orange_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/ic_menu_save"
+                android:textAlignment="gravity"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_marginTop="@dimen/top_margin"
+                android:background="@color/mr_haki"
+                app:tabIndicatorColor="@color/mylabeltextcolor"
+                app:paddingStart="20dp"
+                app:tabMode="scrollable"
+                app:tabBackground="@color/mr_haki"
+                app:tabTextColor="@color/bembeyaz"
+                app:tabSelectedTextColor="@color/siyah"
+                app:tabTextAppearance="@style/dd_tab_item_style"
+                style="@style/mr_fe_tablayout"
+
+                />
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+  </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

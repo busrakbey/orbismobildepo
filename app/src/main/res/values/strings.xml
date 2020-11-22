@@ -1,0 +1,425 @@
+<resources>
+    <string name="app_name">Orbis Özet Mobil</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Orbis menü açık</string>
+    <string name="drawer_close">Orbis menü kapalı</string>
+    <array name="menu">
+        <item>Alan Envanteri</item>
+        <item>Sağlık Durumu</item>
+        <item>İşletme Pazarlama</item>
+        <item>Odun Dışı</item>
+        <item>Biyolojik Çeşitlilik</item>
+        <item>Yetişme Ortamı</item>
+    </array>
+
+    <string name="title_activity_login">Orbis Mobile</string>
+    <string name="title_activity_home">Orbis Mobile</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="alankarne_menu_karneolustur">Alan Karne Kayıt</string>
+    <string name="alankarne_menu_tumkarneler">Alan Karne Liste</string>
+    <string name="alankarne_menu_olusankarneler">Onaylanan Karneler</string>
+    <string name="alankarne_menu_onaybekleyenkarneler">Onay Bekleyen Karneler</string>
+
+    <string name="saglikdurum_menu_1">Suç Tutanak Listesi</string>
+    <string name="saglikdurum_menu_2"> Suç Tutanak  Formu</string>
+    <string name="saglikdurum_menu_3_MucadeleFormList">Mücadele Form Liste</string>
+    <string name="saglikdurum_menu_4_MucadeleFormEdit">Mücadele Form Kayıt</string>
+    <string name="saglikdurum_menu_5_ZararliDuyurmaList">Zararlı Duyurma Liste</string>
+    <string name="saglikdurum_menu_6_ZararliDuyurmaEdit">Zararlı Duyurma Kayıt</string>
+    <string name="saglikdurum_menu_7_Teshis_NumuneList">Teşhis Numune Liste</string>
+    <string name="saglikdurum_menu_8_TeshisNumuneEdit">Teşhis Numune Kayıt</string>
+    <string name="saglikdurum_menu_9_OtlatmaPlanList">Otlatma Plan Liste</string>
+    <string name="saglikdurum_menu_10_OtlatmaPlanEdit">Otlatma Plan Kayıt</string>
+    <string name="saglikdurum_menu_11_MuhafazaOrmaniList">Muhafaza Ormanı Liste</string>
+    <string name="saglikdurum_menu_12_MuhafazaOrmaniEdit"> Muhafaza Ormanı Kayıt</string>
+    <string name="saglikdurum_menu_13_Tarama_Raporu_Liste">Tarama Raporu Liste</string>
+    <string name="saglikdurum_menu_13_Tarama_Raporu_Kayit">Tarama Raporu Kayıt</string>
+
+
+    <string name="IsletmePazarlama_menu_1_dikilidamgaList">Dikili Damga Liste</string>
+    <string name="IsletmePazarlama_menu_2_DikiliDamgaEdit">Dikili Damga Oluştur</string>
+    <string name="IsletmePazarlama_menu_3"> Menu item</string>
+    <string name="IsletmePazarlama_menu_4">Menu item</string>
+
+
+    <string name="YetismeOrtami_menu_1">Fidan Dikim Liste</string>
+    <string name="YetismeOrtami_menu_2">Fidan Dikim Kayıt</string>
+    <string name="YetismeOrtami_menu_3">Suç Tutanak Listesi</string>
+    <string name="YetismeOrtami_menu_4">Suç Tutanak Listesi</string>
+    <string name="YetismeOrtami_menu_5">Suç Tutanak Listesi</string>
+    <string name="YetismeOrtami_menu_6">Suç Tutanak Listesi</string>
+
+    <string name="OdunDisi_menu_1_Ornek_Alan_Tur_List">Örnek Alan Tür Liste</string>
+    <string name="OdunDisi_menu_2_Ornek_Alan_Tur_Edit">Örnek Alan Tür Kayıt</string>
+    <string name="OdunDisi_menu_3">Liste</string>
+    <string name="OdunDisi_menu_4">Kayıt</string>
+    <string name="OdunDisi_menu_5">Liste</string>
+    <string name="OdunDisi_menu_6">Kayıt</string>
+
+    <string name="BiyolojikCesitlilik_menu_1_TurKayitList">Tür Kayıt Liste</string>
+    <string name="BiyolojikCesitlilik_menu_2_DikiliDamgaEdit"> Yeni Tür Kayıt </string>
+    <string name="BiyolojikCesitlilik_menu_3"> Menu item</string>
+    <string name="BiyolojikCesitlilik_menu_4">Menu item</string>
+
+
+    <string name="mydrawerListitem_AlanEnvanteri">Alan Envanteri</string>
+    <string name="mydrawerListitem_SaglikDurumu">Sağlık Durumu</string>
+    <string name="mydrawerListitem_IsletmePazarlama">İşletme Pazarlama</string>
+    <string name="mydrawerListitem_1_OdunDisi">Odun Dışı</string>
+    <string name="mydrawerListitem_3_YetismeOrtam">Yetişme Ortamı</string>
+    <string name="mydrawerListitem_2_BiyolojikCesitlilik">Biyolojik Çeşitlilik</string>
+    <string name="mydrawerListitem_4">menu</string>
+    <string name="mydrawerListitem_5">menu</string>
+    <string name="mydrawerListitem_6">menu</string>
+
+    <string name="title_activity_alan_karne">AlanKarneActivity</string>
+    <string name="title_activity_tabb">TabbActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_geo_location">GeoLocationActivity</string>
+    <string name="title_activity_arc_gissample">ArcGISSampleActivity</string>
+    <string name="title_activity_create_runtime_geodatabase">CreateRuntimeGeodatabaseActivity
+    </string>
+    <string name="title_activity_offline_editor">OfflineEditorActivity</string>
+    <string name="title_activity_select_features">SelectFeatures</string>
+    <string name="title_activity_geo_db_operations">GeoDbOperationsActivity</string>
+
+
+    <string name="featurelayer_url">http://85.105.68.105:6080/arcgis/rest/services/yayin_VERSION2/FeatureServer/3</string>
+    <string name="featureservice_url">http://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Wildfire/FeatureServer</string>
+    <string name="myfeatureservice_url">http://192.168.1.219:6080/arcgis/rest/services/yayin_VERSION/FeatureServer</string>
+    <!-- route action bar title -->
+    <string name="menu_download">Download</string>
+
+
+    <string name="OFFLINE_FILE_EXTENSION">.geodatabase</string>
+    <string name="title_activity_suc_tutanak_list">SucTutanakListActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_suc_tutanak_edit">SucTutanakEditActivity</string>
+    <string name="title_activity_tarama_raporu_list">TaramaRaporuListActivity</string>
+    <string name="title_activity_tarama_raporu_edit">TaramaRaporuEditActivity</string>
+    <string name="title_activity_gdboactivity">GDBOactivity</string>
+    <string name="title_activity_ornek_alan_karne">OrnekAlanKarneActivity</string>
+    <string name="title_activity_map_selector">MapSelectorActivity</string>
+
+    <string name="Secinizi">Seçiniz...</string>
+    <string name="geodatabase_filename">offlinedata</string>
+
+    <!-- Katman Adları -->
+    <string name="ORNEK_ALAN">ORNEK_ALAN</string>
+    <string name="PLAN">PLAN</string>
+    <string name="CBSORBIS_OA_KAR">CBSORBIS.OA_KAR</string>
+    <string name="CBSORBIS_EN_KAR_AGAC">CBSORBIS.EN_KAR_AGAC</string>
+    <string name="title_activity_model_animator">ModelAnimatorActivity</string>
+    <string name="title_activity_modelanim">modelanimActivity</string>
+    <string name="title_activity_dikili_damga_edit">DikiliDamgaEditActivity</string>
+
+    <!-- Api alan adları -->
+    <string name="ortak_agac_tur_tumkayitlargetir_ortakAgacTurGet_methodPost">/rest/IsletmePazarlamaRS/ortakAgacTurGet</string>
+    <string name="smodulkoddegerGet_methodPost_tumkayitgetirir">/rest/IsletmePazarlamaRS/smodulkoddegerGet</string>
+    <string name="sorgbirimGet_methodPost_tumkayitgetirir">/rest/IsletmePazarlamaRS/sorgbirimGet</string>
+    <string name="sorgbirimGet_methodPost_sadece_ilgili_birim_getir">/rest/IsletmePazarlamaRS/ilgilisorgbirimGet</string>
+    <string name="skullaniciGet_methodPOST_tumkayitgetr">/rest/IsletmePazarlamaRS/skullaniciGet</string>
+    <string name="oduhturkayitaileGet_methodPost_TumkayitGetir">/rest/IsletmePazarlamaRS/oduhturkayitaileGet</string>
+    <string name="scalisanGet_methodPOST_tumkayitGetir">/rest/IsletmePazarlamaRS/scalisanGet</string>
+    <string name="yenidikiliDamgaKayit_Post_yenikayit">/rest/IsletmePazarlamaRS/yenidikiliDamgaKayit</string>
+    <string name="gp_ornekalankarnegonderir_orbis_rest_GeoPortalRS_ornekalankarnePost">/rest/GeoPortalRS/ornekalankarnePost</string>
+    <string name="loginActivity_kullaniciLdapDogrulama">/rest/ortakRS/kullaniciDogrulama</string>
+    <string name="loginActivity_kullaniciDogrulamaPost">/rest/ortakRS/kullaniciDogrulamaPost</string>
+
+    <string name="IsletmePazarlamaRS_kullanicininGorevlendirildigiDikiliDamgaListesi">/rest/IsletmePazarlamaRS/kullanicininGorevlendirildigiDikiliDamgaListesi</string>
+    <string name="IsletmePazarlamaRS_dikiliDamgaDetayGetClass">/rest/IsletmePazarlamaRS/dikiliDamgaDetayGetClass</string>
+    <string name="IsletmePazarlamaRS_dikiliDamgaGetClass">/rest/IsletmePazarlamaRS/dikiliDamgaGetClass</string>
+    <string name="IsletmePazarlamaRS_hacimGetClass">/rest/IsletmePazarlamaRS/agacHacimArtimTablosuGetClass</string>
+    <string name="title_activity_sil">silActivity</string>
+    <string name="IsletmePazarlamaRS_mesaha_sozlesme_get_map">/rest/IsletmePazarlamaRS/mesahaSozlesmeGetMap</string>
+    <string name="IsletmePazarlamaRS_dikili_damga">/rest/IsletmePazarlamaRS/dikiliDamgaGetClassMesaa</string>
+    <string name="IsletmePazarlamaRS_get_faaliyet">/rest/IsletmePazarlamaRS/faaliyetGetClassMesaa</string>
+    <string name="IsletmePazarlamaRS_get_faaliyet_detay">/rest/IsletmePazarlamaRS/faaliyetDetayGetClassMesaa</string>
+    <string name="IsletmePazarlamaRS_get_uretim_sozlesme">/rest/IsletmePazarlamaRS/uretimSozlesmeGetClassMesaa</string>
+    <string name="IsletmePazarlamaRS_get_sozlesme_tevziat">/rest/IsletmePazarlamaRS/sozlesmeTevziatGetClassMesaa</string>
+    <string name="ortak_odun_turu_get">/rest/IsletmePazarlamaRS/ortakOdunTuruGetClass</string>
+    <string name="IsletmePazarlamaRS_yeni_faaliyet_detay_senkron">/rest/IsletmePazarlamaRS/yeniFaaliyetDetayKayit</string>
+    <string name="PersonelRS_unvan_get">/rest/PersonelRS/perunvandataGET</string>
+    <string name="SaglikDurumuRS_koruma_ekip_get">/rest/SaglikDurumuRS/korumaEkipGetClass</string>
+    <string name="SaglikDurumuRS_koruma_program_get">/rest/SaglikDurumuRS/ekipProgramGetClass</string>
+    <string name="SaglikDurumuRS_koruma_program_detay_get">/rest/SaglikDurumuRS/ekipProDetayGetClass</string>
+    <string name="SaglikDurumuRS_koruma_uygulama_get">/rest/SaglikDurumuRS/korumaUygulamaGetClass</string>
+    <string name="SaglikDurumuRS_koruma_kontrol_get">/rest/SaglikDurumuRS/korumaKontrolGetClass</string>
+    <string name="SaglikDurumuRS_ekip_personel_get">/rest/SaglikDurumuRS/korumaEkipPersonelGetClass</string>
+
+    <string name="SaglikDurumuRS_koruma_uygulama_get_bolme">/rest/SaglikDurumuRS/korumaUygBolmeGetClass</string>
+    <string name="SaglikDurumuRS_koruma_program_get_bolme">/rest/SaglikDurumuRS/ekipProBolmeGetClass</string>
+
+    <string name="PersonelRS_get_personel">/rest/PersonelRS/perPersonelDetayGetAccordingGorevBirimId</string>
+    <string name="SaglikDurumuRS_get_gp_bolme">/rest/SaglikDurumuRS/gpBolmeGetClass</string>
+
+
+    <string name="IsletmePazarlamaRS_yeni_surutme_senkron">/rest/IsletmePazarlamaRS/yeniSurutmeFaaliyetKayit</string>
+    <string name="IsletmePazarlamaRS_get_lokasyon_for_surutme">/rest/IsletmePazarlamaRS/lokasyonGetClass</string>
+    <string name="IsletmePazarlamaRS_get_vahidi_fiyat_depolar">/rest/IsletmePazarlamaRS/getVahidiFiyataBagliDepolar</string>
+
+
+    <string name="IsletmePazarlamaRS_yeni_sevk_pusulasi_kayit">/rest/IsletmePazarlamaRS/yeniSevkPusulasiKayit</string>
+
+    <string name="SaglikDurumuRS_get_s_modul_kod">/rest/SaglikDurumuRS/sModulKodDegerAccordingGrupParameter</string>
+    <string name="SaglikDurumuRS_get_suc_tutanak_list">/rest/SaglikDurumuRS/ozmSucTutanakGetClass</string>
+    <string name="SaglikDurumuRS_get_suc_tutanak_alet_vasita">/rest/SaglikDurumuRS/ozmSucTutanakAletVasitaGetClass</string>
+    <string name="SaglikDurumuRS_get_suc_tutanak_emval">/rest/SaglikDurumuRS/ozmSucTutanakEmvalGetClass</string>
+    <string name="SaglikDurumuRS_get_suc_tutanak_supheli">/rest/SaglikDurumuRS/ozmSucTutanakSupheliGetClass</string>
+    <string name="SaglikDurumuRS_get_suc_tutanak_suc_turu">/rest/SaglikDurumuRS/ozmSucTutanakSucTuruGetClass</string>
+    <string name="SaglikDurumuRS_get_suc_tutanak_suc_yeri_nitelik">/rest/SaglikDurumuRS/ozmSucTutanakSucYeriNitelikGetClass</string>
+    <string name="SaglikDurumuRS_get_suc_tutanak_saha">/rest/SaglikDurumuRS/ozmSucTutanakSahaGetClass</string>
+    <string name="SaglikDurumuRS_get_ortak_kisi">/rest/SaglikDurumuRS/ozmSucTutanakOrtakKisiGetClass</string>
+    <string name="SaglikDurumuRS_get_katilmayan_personel">/rest/SaglikDurumuRS/korumaUygKatilmayanPersonelGetClass</string>
+    <string name="SaglikDurumuRS_sync_suc_tutanak">/rest/SaglikDurumuRS/yeniOzmSucTutanakKayitMobil</string>
+    <string name="SaglikDurumuRS_sync_suc_koruma_uygulama">/rest/SaglikDurumuRS/yeniOzmKorumaUygulamaMobil</string>
+    <string name="SaglikDurumuRS_sync_suc_koruma_kontrol">/rest/SaglikDurumuRS/yeniOzmKorumaKontrolMobil</string>
+    <string name="SaglikDurumuRS_yeni_ortak_kisi">/rest/ortakRS/yeniOrtakKisi</string>
+    <string name="IsletmePazarlamaRS_get_istif_kayitlari">/rest/IsletmePazarlamaRS/pazDepoIstifGetClass</string>
+    <string name="IsletmePazarlamaRS_get_mescere_tipleri_accto_bolme">/rest/IsletmePazarlamaRS/getMescereTipiAccToBolme</string>
+    <string name="IsletmePazarlamaRS_get_agac_turleri_accto_mescere">/rest/IsletmePazarlamaRS/getAgacTuruAccToMescere</string>
+
+
+
+    <string name="YetismeOrtamiRS_yeni_toprak_profili">/rest/YetismeOrtamiRS/yeniToprakProfiliFromMobil</string>
+    <string name="YetismeOrtamiRS_yeni_yetisme_ortami">/rest/YetismeOrtamiRS/yeniYetismeOrtamiFromMobil</string>
+    <string name="YetismeOrtamiRS_yeni_vejetasyon">/rest/YetismeOrtamiRS/yeniVejetasyonFromMobil</string>
+
+    <string name="OrtakRS_get_is_kalemleri">/rest/ortakRS/getOrtakIsKalemleri</string>
+    <string name="OrtakRS_get_not">/rest/ortakRS/getOrtakNotAccordingToUser</string>
+    <string name="OrtakRS_get_not_according_to_birim">/rest/ortakRS/getOrtakNotAccordingToBirim</string>
+    <string name="OrtakRS_get_not_konu">/rest/ortakRS/getOrtakNotKonu</string>
+    <string name="OrtakRS_get_kamera_list">/rest/ortakRS/getOrtakKameraList</string>
+
+    <string name="OrtakRS_upload_not">/rest/ortakRS/uploadOrtakNotFromMobile</string>
+
+    <string name="OrtakRS_upload_yol">/rest/tasinmazRS/uploadYolFromMobile</string>
+
+
+
+
+    <string name="OrtakRS_upload_pictures">/rest/ortakRS/uploadFileFromMobile</string>
+    <string name="OrtakRS_upload_kisi_location">/rest/ortakRS/sendUserLocationFromMobil</string>
+
+    <string name="OymRS_upload_haber_formu">/rest/ormanYanginlariRS/yeniYanginHaberFormuFromMobil</string>
+    <string name="FidanlikRS_upload_siparis_formu">/rest/FidanlikRS/yeniSiparisFormuFromMobil</string>
+    <string name="OrtakRS_get_fidan_tur">/rest/ortakRS/getFidanTuru</string>
+    <string name="FidanlikRS_get_orijin">/rest/FidanlikRS/getOrijin</string>
+    <string name="FidanlikRS_stoktan_dus">/rest/FidanlikRS/yeniStoktanDusFromMobil</string>
+
+    <string name="OrkoyRS_istatistik_proje_uygulamalari">/rest/SosyoEkonomikRS/istatistikProjeUygulamalari</string>
+    <string name="OrkoyRS_kredi_talep">/rest/SosyoEkonomikRS/yeniOrkTalepFromMobil</string>
+    <string name="OrkoyRS_istatistik_tahsilat">/rest/SosyoEkonomikRS/istatistikTahsilat</string>
+    <string name="OrkoyRS_istatistik_icra">/rest/SosyoEkonomikRS/istatistikIcra</string>
+    <string name="OrkoyRS_istatistik_talep">/rest/SosyoEkonomikRS/istatistikTalep</string>
+    <string name="OrkoyRS_getProjeAdi">/rest/SosyoEkonomikRS/getProjeAdi</string>
+    <string name="OrkoyRS_kredi_oneri">/rest/SosyoEkonomikRS/yeniOrkOneriFromMobil</string>
+    <string name="OrkoyRS_istatistik_gerceklesme">/rest/SosyoEkonomikRS/orkGerceklesmeUygulama</string>
+    <string name="OrkoyRS_sorgbirim">/rest/SosyoEkonomikRS/sOrgBirimGetForMobil</string>
+    <string name="OrkoyRS_orkTebligatListesi">/rest/SosyoEkonomikRS/orkTebligatListesi</string>
+    <string name="OrkoyRS_getOdenekForCalismaProgrami">/rest/SosyoEkonomikRS/getOdenekForCalismaProgrami</string>
+    <string name="OrkoyRS_getProjeAdinaGoreUstLimit">/rest/SosyoEkonomikRS/getProjeAdinaGoreUstLimit</string>
+    <string name="OrkoyRS_yeniCalismaProgFromMobil">/rest/SosyoEkonomikRS/yeniCalismaProgFromMobil</string>
+    <string name="OrkoyRS_calismaProgramiOnayKontrol">/rest/SosyoEkonomikRS/calismaProgramiOnayKontrol</string>
+    <string name="OrkoyRS_calismaProgramiList">/rest/SosyoEkonomikRS/calismaProgramiList</string>
+    <string name="OrkoyRS_krediTahsisList">/rest/SosyoEkonomikRS/krediTahsisList</string>
+    <string name="OrkoyRS_tahsisOnayKontrol">/rest/SosyoEkonomikRS/tahsisOnayKontrol</string>
+    <string name="OrkoyRS_getKrediTespitList">/rest/SosyoEkonomikRS/krediTespitList</string>
+    <string name="OrkoyRS_getKrediTespitSahisList">/rest/SosyoEkonomikRS/krediTespitSahisList</string>
+
+
+
+
+
+    <!--
+    <string name="MuhasebeRS_get_gelir_gider_gerceklesme">/rest/muhasebeRS/getGelirGiderGerceklesme</string>
+    -->
+
+    <string name="ipRS_chart1_damga">/rest/IsletmePazarlamaRS/getPazUretimSatisOzetDamgaMobilChart</string>
+    <string name="ipRS_chart2_uretim">/rest/IsletmePazarlamaRS/getPazUretimSatisOzetUretimMobilChart</string>
+    <string name="ipRS_chart3_satis">/rest/IsletmePazarlamaRS/getPazUretimSatisOzetSatisMobilChart</string>
+    <string name="ip_istif_olusturma">/rest/IsletmePazarlamaRS/getCreateIstif</string>
+
+
+
+
+
+
+    <string name="SaglikDurumuRS_mobil_sorgu_suc_tutanak">/rest/SaglikDurumuRS/mobilSorguSucTutanak</string>
+    <string name="BiyolojikCesitlilikRS_tur_kayit_aile_for_ozm">/rest/BiyolojikCesitlilikRS/mobilOduhTurKayitAileForOzm</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_kart_tanim">/rest/SaglikDurumuRS/mobilSorguOzmKart</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_zararli_yararli">/rest/SaglikDurumuRS/mobilSorguZararliYararli</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_laboratuvar">/rest/SaglikDurumuRS/mobilSorguLaboratuvar</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_hastalik">/rest/SaglikDurumuRS/mobilSorguHastalikBildirimi</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_otlatma">/rest/SaglikDurumuRS/mobilSorguOtlatmaIzin</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_hastalik_basvuru_no">/rest/SaglikDurumuRS/mobilSorguHastalikBasvuruNo</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_plaka">/rest/SaglikDurumuRS/mobilSorguPlaka</string>
+
+
+
+    <string name="OrtakRS_il_get">/rest/ortakRS/ilGet</string>
+    <string name="OrtakRS_ilce_get">/rest/ortakRS/ilceGet</string>
+    <string name="ortakRS_mobil_sorgu_koy_belde">/rest/ortakRS/mobilSorguGetKoyBelde</string>
+    <string name="ortakRS_mobil_sorgu_ortak_kisi">/rest/ortakRS/mobilSorguGetOrtakKisi</string>
+    <string name="OrtakRS_version_control">/rest/ortakRS/getMobilDatabaseVersion</string>
+    <string name="OrtakRS_ilden_ilce_getir">/rest/ortakRS/mobilSorguIleGoreIlce</string>
+    <string name="OrtakRS_il_ilceden_koy_getir">/rest/ortakRS/mobilSorguGetKoyBeldeGetToCityTown</string>
+    <string name="OrtakRS_koyegore_bolgeMudurlukSeflik_get">/rest/ortakRS/koyeGoreBolgeMudurlukSeflikGet</string>
+
+
+    <string name="SaglikDurumuRS_mobil_sorgu_feromon_tuzak_tanim">/rest/SaglikDurumuRS/mobilSorguFeromonTuzakTanim</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_feromon_ilac">/rest/SaglikDurumuRS/mobilSorguFeromonIlac</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_zararli_duyurma">/rest/SaglikDurumuRS/mobilSorguZararliDuyurma</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_silah_cap">/rest/SaglikDurumuRS/mobilSorguOzmSilahCap</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_silah_marka">/rest/SaglikDurumuRS/mobilSorguOzmSilahMarka</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_silah_model">/rest/SaglikDurumuRS/mobilSorguOzmSilahModel</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_personel">/rest/SaglikDurumuRS/mobilSorguGetPersonel</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_silah">/rest/SaglikDurumuRS/mobilSorguOzmSilah</string>
+    <string name="SaglikDurumuRS_mobil_sorgu_otlatma_plani">/rest/SaglikDurumuRS/mobilSorguGetOtlatmaPlani</string>
+
+    <string name="RaporlamaRS_get_ozet_ekran">/rest/RaporlamaRS/getOzetEkranList</string>
+
+
+
+
+
+
+
+
+
+
+
+    <style name="ggggg"></style>
+
+
+    <string name="config_windturbine_name">datajson</string>
+    <string name="config_windturbine_layer_definition">1</string>
+
+    <string name="menusonfig_item_ayarkaydet">Ayarları Kaydet</string>
+    <string name="menusonfig_item_veriGuncelle">Verileri Güncelle</string>
+    <string name="menusonfig_item_Vazgeç">Vazgeç</string>
+    <string name="menusonfig_item_CikisYap">Çıkış Yap</string>
+
+    <string name="msg_sending_email">Mail Gönderiliyor...</string>
+    <string name="msg_email_sent_successfully">Mail başarıyla iletildi</string>
+    <string name="msg_error_sending_email">Mail gönderilemedi. Ayarlarınızı kontrol ediniz.</string>
+
+    <string name="tab_print">Print</string>
+    <string name="tab_icc">Icc</string>
+    <string name="tab_mag">Mag</string>
+    <string name="tab_scan">Scan</string>
+    <string name="tab_nfc">NFC</string>
+    <string name="read_icc">Read Icc</string>
+    <string name="bt_print_pic">print Pic</string>
+    <string name="bt_print_code">print Code</string>
+    <string name="bt_print_text">print Text</string>
+    <string name="scanner_hint">At the barcode and press the scan button on the device for bar code</string>
+    <string name="icc_hint">Please insert the IC card</string>
+    <string name="mag_hint">Please brush magnetic stripe card</string>
+    <string name="nfc_message">Don\'t move the Tag,Reading......</string>
+    <string name="nfc_read">Read successed</string>
+
+    <string name="firsOpenMess">Orbis Mobile uygulamasına hoşgeldiniz.\nUygulamayı kullanabilmek için ilk giriş işleminizde internet bağlantısına sahip olmanız gerekmekte ve server url adresinizin ayarlanmış olması gerekmektedir.\n Giriş ekranında yer alan ayar butonu yardımı ile server url adresini kaydedebilirsiniz.\nGörüş ve önerileriniz için:
+    </string>
+
+
+    <string name="title_activity_main">Sample</string>
+    <string name="show_init_animation">Show</string>
+    <string name="parallax_enabled">Parallax Enabled</string>
+    <string name="parallax_scale">Parallax Scale</string>
+    <string name="card_gap">kartlar</string>
+    <string name="card_gap_bottom">kartlar</string>
+    <string name="settings">ayarlar</string>
+    <string name="restart_activity">restartact</string>
+    <string name="reset_defaults">Reset</string>
+    <string name="card_title">Bölme %1$d</string>
+    <string name="title_activity_home2">Home2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="notsec">Bir not ekleyiniz</string>
+    <string name="business_prompt">Choose a Bussiness Type</string>
+    <string name="spinner_prompt">Choose a Country</string>
+    <string-array name="country_arrays">
+        <item>Seçiniz...</item>
+        <item> 100</item>
+        <item> 200</item>
+        <item> 400</item>
+        <item> 600</item>
+        <item> 800</item>
+        <item> 1000</item>
+    </string-array>
+
+    <string name="ortakagacturu">EntityLayer.Ortak.OrtakAgacTuru</string>
+    <string name="ortakagacturudata">DataLayer.Ortak.OrtakAgacTuru_Data</string>
+    <string name="ortakagacturu1">EntityLayer.Ortak.OrtakAgacTuru</string>
+    <string name="ortakagacturudata1">DataLayer.Ortak.OrtakAgacTuru_Data</string>
+
+
+    <!-- dialog elements -->
+    <string name="mr_dialog_messbox_title">Orbis Sistem Mesajı</string>
+
+
+
+    <string name="ogmcbs_ortofoto_url">http://cbsorbis.ogm.gov.tr/arcgis/rest/services/GUNCEL_ORTOFOTO/ImageServer</string>
+    <string name="ogmcbs_basemap_url">http://cbsorbis.ogm.gov.tr/arcgis/rest/services/OGM_BASEMAP/MapServer</string>
+    <string name="topo">http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer</string>
+    <string name="streets">http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer</string>
+
+    <string name="basic_license_succeeded">"License level has been successfully set to Basic."</string>
+    <string name="valid_client_id_required">Failed to set license level to Basic. You need to provide a valid client id.\n\n
+      1. Go to https://developers.arcgis.com.\n
+      2. Sign in with your ArcGIS developer account.\n
+      3. Create an application. This will give you access to a client id string.\n
+      4. Pass the client id string to ArcGISRuntime.setClientId().</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_api_key">AIzaSyDR2FAFT5yHhCKvi-kIq1gLDpfDLd_OjaU</string>>
+
+
+
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+
+
+    <!--  Orköy Foto -->
+    <string-array name="uploadImages">
+        <item>Galeriden Seç</item>
+        <item>Kamera</item>
+        <item>Resmi Sil</item>
+        <item>Resmi Aç-Kapat</item>
+    </string-array>
+
+    <string-array name="itemIds">
+        <item>gallery_image</item>
+        <item>camera_image</item>
+        <item>remove_image</item>
+    </string-array>
+
+</resources>
